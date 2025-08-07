@@ -1,2 +1,22 @@
-\subsection{Administrador }
-\subsection{Empleado}
+\subsection{Técnico}
+El técnico se encarga de dar solución a los tickets presentes y modificar sus estados de acuerdo a la solución dada. Actualmente hay tres niveles de coordinador:
+\begin{enumerate}
+    \item Técnico nivel 1
+    \item Técnico nivel 2
+    \item Técnico nivel 3
+\end{enumerate}
+
+El técnico solamente puede resolver los tickets de su nivel y que le han sido asignados.
+
+\subsection{Coordinador}
+El coordinador se encarga de gestionar los tickects en el sentido asignarlos a los técnicos. Actualmente hay tres niveles de coordinador:
+\begin{enumerate}
+	\item Coordinador nivel 1
+	\item Coordinador nivel 2
+	\item Coordinador nivel 3
+\end{enumerate}
+
+Cada coordinador ha de gestionar los tickets de acuerdo al nivel en que se encuentran, un coordinador de nivel dos debe gestionar solamente los tickets de nivel dos y asignarlos a técnicos del mismo nivel, también tiene la posibilidad de escalar los tickets al nivel siguiente.
+
+\subsection{Administrador}
+El administrador es el rol que tiene mayor control sobre el aplicativo se encarga de aceptar a los técnicos y darles un nivel tanto a técnicos como a coordinadores, ajustar los precios de las extensiones e igual de los paquetes de hosting, de eliminar clientes y distribuidores. Sus funciones no corresponden a las de un coordinador.
