@@ -1,0 +1,54 @@
+\subsection{Problema por resolver}
+ChibchaWeb, una empresa de hospedaje de sitios web ubicada en Sugamuxi, ha experimentado un crecimiento constante en su base de clientes, principalmente en Colombia y países cercanos, y se proyecta una expansión hacia otros continentes como África. Actualmente administra miles de sitios web bajo distintos paquetes de hosting (Chibcha-Platino, Chibcha-Plata y Chibcha-Oro) sobre plataformas Windows y Unix. Los clientes pueden escoger planes de pago flexibles (mensual, trimestral, semestral o anual), y aunque el método principal de pago es con tarjeta de crédito, se planea habilitar próximamente otros medios como PSE.
+
+El modelo de negocio incluye además una red de distribuidores categorizados como BÁSICOS o PREMIUM, con diferentes esquemas de comisiones. ChibchaWeb también intermedia en el registro y transferencia de dominios a través de terceros registradores, ofreciendo este servicio adicional a sus clientes. A medida que el volumen de operaciones crece y los procesos se diversifican, la compañía enfrenta varios desafíos operativos y administrativos.
+
+Actualmente, ChibchaWeb carece de una solución unificada que automatice y centralice sus procesos comerciales, operativos y de atención al cliente. Esto genera ineficiencias en la gestión de perfiles, pagos, comisiones, atención técnica y comunicación con registradores externos. La falta de un sistema integral limita la capacidad de escalar operaciones, introducir nuevos métodos de pago, y garantizar trazabilidad y control sobre los procesos internos.
+
+\subsection{Descripción general del sistema a desarrollar}
+El sistema a desarrollar para ChibchaWeb es una plataforma integral de gestión de servicios de hospedaje web, diseñada para automatizar, centralizar y optimizar los procesos operativos clave de la compañía. Esta solución tecnológica permitirá gestionar clientes, empleados, distribuidores, dominios, pagos y soporte técnico de manera eficiente, segura y escalable.
+
+El sistema contará con módulos para la creación y administración de perfiles de clientes y empleados, y almacenará la información en una base de datos relacional optimizada incluyendo la validación de información personal y financiera garantizando la integridad evitando ciclos en esta; buscar y adquirir dominios mediante un carrito; adquirir paquetes de hosting.\\
+
+El sistema contará con roles diferenciados por tipo de cuenta; búsquedas y consultas detalladas de todos los actores del sistema, así como herramientas para la generación de archivos de transferencia electrónica y seguimiento de actividades internas del proyecto; gestión de solicitudes de dominios con generación de archivos XML para su envío a registradores externos; Cálculo automático de comisiones a distribuidores según su categoría (BÁSICO o PREMIUM); y un módulo de soporte técnico basado en tickets que garantiza el seguimiento y resolución estructurada de problemas reportados.\\
+
+La solución incluirá una interfaz web en React, backend en FastAPI y base de datos en MySQL. Se aplicarán buenas prácticas de diseño para mantener una l ógica de negocio clara y una estructura coherente en el modelo de datos.
+
+\subsection{Objetivos de la solución}
+
+\subsubsection{Objetivo general}
+\begin{itemize}
+	\item Desarrollar un sistema web que permita registrar, gestionar y monitorear cuentas de usuarios, adquisición de dominios y facturación de manera eficiente y centralizada.
+
+\end{itemize}
+
+\subsubsection{Objetivos específicos}
+\begin{itemize}
+\item Diseñar una base de datos relacional normalizada y sin ciclos innecesarios para soportar la lógica del sistema.
+\item Desarrollar una interfaz web funcional y responsiva utilizando React y Bootstrap para facilitar la interacción del usuario con el sistema.
+\item Construir un backend en FastAPI que gestione la lógica del negocio, la autenticación de usuarios y la comunicación con la base de datos.
+\end{itemize}
+
+\subsection{Stakeholders}
+%configutación tablas
+\pgfplotstableset{
+    % Estilo general
+    every head row/.style={
+        before row=\hline\rowcolor{cafet}\bfseries,
+        after row=\hline,
+    },
+    every odd row/.style={before row=\rowcolor{gray!10}},
+    columns/Stakeholder/.style={string type, column type=p{4cm}},
+    columns/Descripción/.style={string type,column type=p{12cm},},
+    col sep=semicolon,
+}
+
+\begin{center}
+    \begin{table}[H]
+    \pgfplotstabletypeset[
+    col sep=semicolon,
+    header=true,
+    ]{generalidades/stakeholders.dat}
+    \caption{Stakeholders}
+    \end{table}
+\end{center}

@@ -1,0 +1,24 @@
+Categoría;Caso de Uso;Actor(es)
+Autenticación;Iniciar Sesión;Usuario
+  ;Registrarse como Cliente ;Cliente
+  ;Registrarse como Distribuidor;Distribuidor
+  ;Verificar Cuenta por Token;Usuario
+Gestión de Perfil;Ver Perfil;Usuario
+ ;Buscar Cliente, Distribuidor o Empleado;Administrador
+ ;Gestionar Perfiles de Cliente;Administrador
+ ;Gestionar Perfiles de Distribuidor;Administrador
+ ;Gestionar Perfiles de Empleado;Administrador
+ ;Registrar Empleado;Administrador
+Métodos de Pago;Agregar Método de Pago;Cliente
+ ;Realizar Pago;Cliente
+Servicios;Comprar Paquete;Cliente
+ ;Cobrar a sus Clientes;Distribuidor
+Dominios;Registrar Solicitud de Dominio;Usuario
+ ;Transferir Dominio por Correo;Usuario
+ ;Generar Archivo de Dominio;Administrador
+Soporte Técnico;Registrar Ticket de Soporte;Usuario
+ ;Consultar Tickets;Soporte
+ ;Atender y Escalar Tickets;Soporte
+ ;Responder Ticket;Soporte
+ ;Asignar Ticket;Administrador
+ Comisiones;Calcular Comisiones a Distribuidores;Administrador

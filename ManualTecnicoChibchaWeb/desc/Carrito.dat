@@ -1,0 +1,7 @@
+Método;Endpoint;Descripción
+POST;/agregarCarrito;Crear un nuevo carrito.
+POST;/agregarDominioACarrito;Agregar un dominio al carrito.
+PUT;/updateCarrito;Actualizar información del carrito.
+GET;/carrito/obtener-por-cuenta;Obtener todos los carritos asociados a una cuenta.
+DELETE;/eliminarDominioCarrito;Eliminar un dominio del carrito.
+GET;/carrito/dominios;Obtener los dominios facturados.

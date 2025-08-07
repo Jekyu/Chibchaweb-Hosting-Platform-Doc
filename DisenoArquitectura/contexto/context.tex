@@ -1,0 +1,125 @@
+\subsection{Escenarios operacionales}
+Estos Escenarios operacionales representan las interacciones comunes o típicas que pasan entre los diferentes actores de la plataforma de ChibchaWeb, Cada escenario describe como un usuario o actor logra el objetivo deseado utilizando el sistema en un contexto especifico
+
+\subsubsection{Escenario 1: Registro y verificación de cuenta}
+
+\begin{itemize}
+\item Actor: Usuario
+
+\item Descripción: Un usuario se registra en la plataforma ingresando sus datos personales. Luego, valida su cuenta a través de un token enviado por correo electrónico.
+
+\item Resultado esperado: El usuario puede iniciar sesión y acceder a las funciones de su rol.
+\end{itemize}
+
+\subsubsection{Escenario 2: Compra de un paquete de hosting}
+
+\begin{itemize}
+\item Actor: Cliente
+
+\item Descripción: El cliente agrega un método de pago, selecciona un paquete, realiza el pago y se activa el servicio.
+
+\item Resultado esperado: El sistema registra la compra.
+\end{itemize}
+
+\subsubsection{Escenario 3: Registro de solicitud de dominio}
+
+\begin{itemize}
+\item Actor: Usuario (Cliente o Distribuidor)
+
+\item Descripción: El usuario busca un dominio, valida su disponibilidad y envía una solicitud.
+
+\item Resultado esperado: La solicitud es procesada y almacenada para generación de archivos XML.
+\end{itemize}
+
+\subsubsection{Escenario 4: Atención de ticket de soporte}
+
+\begin{itemize}
+\item Actor: Usuario
+
+\item Descripción: El usuario crea un ticket describiendo su problema. Soporte lo atiende, lo puede escalar y responder. El administrador puede asignarlo.
+
+\item Resultado esperado: se le da solución al ticket lo más pronto posible
+\end{itemize}
+
+
+
+\subsubsection{Escenario 5: Gestión administrativa de usuarios}
+
+\begin{itemize}
+\item Actor: Administrador
+
+\item Descripción: Desde el panel de administración, el administrador puede gestionar precios, paquetes y consultar
+
+\item Resultado esperado: Los cambios se reflejan en la base de datos y actualizan el aplicativo en tiempo real
+\end{itemize}
+
+
+
+\subsubsection{Escenario 6: Cálculo y pago de comisiones}
+
+\begin{itemize}
+\item Actor: Administrador
+
+\item Descripción: El sistema calcula las comisiones para los distribuidores según su categoría básico o premium (recordar que esto es un descuento)
+
+\item Resultado esperado: El administrador tiene listos los valores y la documentación de soporte.
+\end{itemize}
+
+\subsubsection{Escenario 7: Consulta de perfil personal}
+
+\begin{itemize}
+\item Actor: Usuario
+
+\item Descripción: El usuario inicia sesión, accede a su perfil y visualiza información relevante como nombre, correo, y acceso a sus métodos de pago o registrar uno nuevo
+
+\item Resultado esperado: El usuario tiene acceso a un panel completo sobre sus datos de forma clara
+\end{itemize}
+
+\subsubsection{Escenario 8: Transferencia de dominio vía correo}
+
+\begin{itemize}
+\item Actor: Usuario
+
+\item Descripción: Un usuario puede transferir un dominio en su propiedad al correo de otro usuario.
+
+\item Resultado esperado: La transferencia queda registrada y se notifica a los usuarios involucrados
+\end{itemize}
+
+\subsection{Casos de Uso: Descripción y Modelo}
+
+Los casos de uso del sistema ChibchaWeb describen las funcionalidades clave que pueden ser ejecutadas por los distintos actores, permitiendo alcanzar objetivos específicos mediante la interacción con la aplicativo. Este modelo facilita la comprensión de los límites del sistema, las responsabilidades de cada actor y las relaciones entre funcionalidades.\\
+
+Actores Del Sistema:
+\begin{itemize}
+    \item Usuario: Actor general del que heredan todos los demás.
+    \item Cliente: Usuario registrado que puede adquirir servicios y registrar dominios.
+    \item Distribuidor: Usuario que gestiona múltiples dominios y cobra a sus propios clientes.
+    \item Empleado: Usuario interno con funcione operativas.
+    \item Soporte: Subtipo de empleado, encargado de atender tickets.
+    \item Administrador: Usuario con permisos totales para gestionar perfiles, dominios y comisiones
+\end{itemize}
+
+\subsubsection{Resumen De Casos De Uso}
+
+\pgfplotstableset{
+    % Estilo general
+    every head row/.style={
+        before row=\hline\rowcolor{cafet}\bfseries,
+        after row=\hline,
+    },
+    every odd row/.style={before row=\rowcolor{gray!10}},
+    columns/Categoría/.style={string type, column type=p{4cm}},
+    columns/Caso de Uso/.style={string type, column type=p{8cm}},
+    columns/Actor(es)/.style={string type,column type=p{3cm},},
+    col sep=semicolon,
+}
+
+\begin{center}
+    \begin{table}[H]
+    \pgfplotstabletypeset[
+    col sep=semicolon,
+    header=true,
+    ]{contexto/rescas.dat}
+    \caption{Resumen De Casos De Uso}
+    \end{table}
+\end{center}

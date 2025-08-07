@@ -1,0 +1,67 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Listado de Figuras}{3}{section.1}%
+\contentsline {section}{\numberline {2}Listado de Tablas}{4}{section.2}%
+\contentsline {section}{\numberline {3}Descripción del Documento}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Propósito y Audiencia}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Organización del Documento}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Convenciones}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Terminología y Definiciones}{6}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Generalidades del proyecto}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Problema por resolver}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Descripción general del sistema a desarrollar}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Objetivos de la solución}{8}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Objetivo general}{8}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Objetivos específicos}{8}{subsubsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.4}Stakeholders}{8}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Descripción y justificación de la metodología}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Scrum}{9}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Roles en Scrum aplicados al proyecto}{9}{subsubsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.2}Justificación de su uso en este proyecto}{9}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Especificación y Recabación de Requerimientos Funcionales}{11}{section.6}%
+\contentsline {section}{\numberline {7}Motivadores Arquitecturales}{12}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Motivadores de Negocio}{12}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Expansión internacional del negocio}{12}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Automatización de procesos clave}{12}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}Mejora en la atención al cliente y soporte técnic}{12}{subsubsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {7.1.4}Gestión y segmentación de distribuidores}{12}{subsubsection.7.1.4}%
+\contentsline {subsubsection}{\numberline {7.1.5}Flexibilidad en métodos de pago}{12}{subsubsection.7.1.5}%
+\contentsline {subsection}{\numberline {7.2}Restricciones de Tecnología}{12}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Frontend}{13}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Backend}{13}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}Base de datos}{13}{subsubsection.7.2.3}%
+\contentsline {subsubsection}{\numberline {7.2.4}Control de versiones y colaboración}{13}{subsubsection.7.2.4}%
+\contentsline {subsection}{\numberline {7.3}Restricciones de Negocio}{13}{subsection.7.3}%
+\contentsline {subsubsection}{\numberline {7.3.1}Políticas de manejo de cuentas }{13}{subsubsection.7.3.1}%
+\contentsline {subsubsection}{\numberline {7.3.2}Manejo de dominios basado en disponibilidad externa }{13}{subsubsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.4}Atributos de Calidad}{13}{subsection.7.4}%
+\contentsline {subsubsection}{\numberline {7.4.1}Disponibilidad}{14}{subsubsection.7.4.1}%
+\contentsline {subsubsection}{\numberline {7.4.2}Seguridad}{14}{subsubsection.7.4.2}%
+\contentsline {subsubsection}{\numberline {7.4.3}Rendimiento}{14}{subsubsection.7.4.3}%
+\contentsline {subsubsection}{\numberline {7.4.4}Escalabilidad}{14}{subsubsection.7.4.4}%
+\contentsline {subsubsection}{\numberline {7.4.5}Mantenibilidad}{14}{subsubsection.7.4.5}%
+\contentsline {subsubsection}{\numberline {7.4.6}Usabilidad}{14}{subsubsection.7.4.6}%
+\contentsline {subsubsection}{\numberline {7.4.7}Interoperabilidad}{15}{subsubsection.7.4.7}%
+\contentsline {subsubsection}{\numberline {7.4.8}Recabación y justificació de Requerimientos No Funcionales}{15}{subsubsection.7.4.8}%
+\contentsline {subsubsection}{\numberline {7.4.9}Escenarios de Calidad}{15}{subsubsection.7.4.9}%
+\contentsline {section}{\numberline {8}Contexto}{18}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Escenarios operacionales}{18}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}Escenario 1: Registro y verificación de cuenta}{18}{subsubsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.2}Escenario 2: Compra de un paquete de hosting}{18}{subsubsection.8.1.2}%
+\contentsline {subsubsection}{\numberline {8.1.3}Escenario 3: Registro de solicitud de dominio}{18}{subsubsection.8.1.3}%
+\contentsline {subsubsection}{\numberline {8.1.4}Escenario 4: Atención de ticket de soporte}{18}{subsubsection.8.1.4}%
+\contentsline {subsubsection}{\numberline {8.1.5}Escenario 5: Gestión administrativa de usuarios}{19}{subsubsection.8.1.5}%
+\contentsline {subsubsection}{\numberline {8.1.6}Escenario 6: Cálculo y pago de comisiones}{19}{subsubsection.8.1.6}%
+\contentsline {subsubsection}{\numberline {8.1.7}Escenario 7: Consulta de perfil personal}{19}{subsubsection.8.1.7}%
+\contentsline {subsubsection}{\numberline {8.1.8}Escenario 8: Transferencia de dominio vía correo}{19}{subsubsection.8.1.8}%
+\contentsline {subsection}{\numberline {8.2}Casos de Uso: Descripción y Modelo}{19}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Resumen De Casos De Uso}{20}{subsubsection.8.2.1}%
+\contentsline {section}{\numberline {9}Descripción y justificación de patrones de diseño adoptados y arquitectura de software definida.}{21}{section.9}%
+\contentsline {section}{\numberline {10}Puntos de Vista y Modelos Arquitecturales}{22}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Punto de Vista: Descripción del problema.}{22}{subsection.10.1}%
+\contentsline {subsubsection}{\numberline {10.1.1}Punto de Vista: Contexto de la solución (Diagrama de Contexto)}{22}{subsubsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.2}Punto de Vista: Interacción}{22}{subsection.10.2}%
+\contentsline {subsubsection}{\numberline {10.2.1}Diagrama de Casos de Uso}{22}{subsubsection.10.2.1}%
+\contentsline {subsubsection}{\numberline {10.2.2}Diagramas de Secuencia}{22}{subsubsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.3}Punto de Vista: Desarrollo (Diagrama de Clases o cualquier otro)}{22}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Punto de Vista: Modelo Relacional de la BBDD.}{22}{subsection.10.4}%
+\contentsline {section}{\numberline {11}Firmas de aceptación con fecha (DD/MM/AAAA)}{22}{section.11}%

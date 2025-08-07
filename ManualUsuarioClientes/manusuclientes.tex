@@ -1,0 +1,139 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, provide=*]{babel}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{tcolorbox}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+
+\geometry{left=2.5cm, right=2.5cm, top=3cm, bottom=4.5cm}
+
+% Para las tablas
+\usepackage{float}  %Para que no se cambien de lugar
+\usepackage{pgfplotstable}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{url} % para que el campo note muestre URLs bien
+
+% Estilo
+\usepackage{lastpage}
+
+% Definición de colores
+\definecolor{cafetitulos}{RGB}{150,75,0}
+\definecolor{redv}{RGB}{165, 43, 42}
+\definecolor{cafe}{RGB}{130,75,0}
+\definecolor{cafet}{RGB}{204, 121, 5}
+
+% Configuración de encabezados y pies de página
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt} % Elimina la línea por defecto del encabezado
+
+% Encabezado
+\fancyhead[L]{\includegraphics[height=1.5cm]{logomanual.png}}
+\fancyhead[R]{\nouppercase{\leftmark}} % Nombre de la sección
+
+% Pie de página
+\renewcommand{\footrulewidth}{0.5pt} % Línea separadora
+\renewcommand{\footrule}{\hbox to\headwidth{\color{cafe}\leaders\hrule height \footrulewidth\hfill}}
+\fancyfoot[L]{Manual de usuario ChibchaWeb: Clientes y distribuidores - 2025}
+\fancyfoot[C]{}
+\fancyfoot[R]{Página \thepage} % Número de página a la derecha
+
+% Ajustar altura del encabezado y espacio para el pie
+\setlength{\headheight}{52pt} % Altura del encabezado (ajusta según el logo)
+\setlength{\footskip}{40pt} % Espacio entre el texto y el pie (evita solapamiento)
+
+% Titulos
+\usepackage{titlesec} % Para personalizar section/subsection
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{\color{cafetitulos}} % Section en café
+\titleformat{\subsection}
+  {\normalfont\bfseries}{\thesubsection}{1em}{\color{cafe}}
+\titleformat{\subsubsection}{\normalfont\bfseries}{\thesubsubsection}{1em}{\color{cafetitulos}}
+
+% Configuración para código fuente
+\lstset{
+    language=Java, % puedes cambiar a Python, SQL, etc.
+    basicstyle=\ttfamily\small,
+    backgroundcolor=\color{gray!10},
+    frame=single,
+    breaklines=true,
+    keywordstyle=\color{cafetitulos},
+    commentstyle=\color{gray},
+    stringstyle=\color{redv}
+}
+
+
+\title{
+\includegraphics[width=5cm]{logo.png}\\
+
+{\Large CHIBCHAWEB HOSTING PLATFORM}\\
+{\Large APLICACIÓN PARA UNA COMPAÑÍA DE HOSPEDAJE DE PÁGINAS WEB}\\[0.5em]
+
+\textbf{MANUAL USUARIO CLIENTES}\\[0.5em]
+}
+\author{
+\textbf{Grupo A}\\[0.5em]
+Ingenieros:\\
+Andrés José Acevedo Ardila\\
+Brayan Steven Sánchez Casilima\\
+Christian Camilo Lancheros Sánchez\\
+Juan Esteban Ordoñez Sandoval\\
+Karen Tatiana Bravo Rodríguez\\
+Luis Felipe Mayorga Tibaquicha\\\\\\
+Universidad Distrital Francisco José de Caldas\\
+Facultad de Ingeniería\\
+Ingeniería de sistemas\\
+}
+\date{Bogotá D.C., Agosto 2025}
+
+
+% Inicio Documento
+\begin{document}
+\maketitle
+\newpage
+
+\input{portada/portada}
+
+\tableofcontents
+
+\newpage
+\section{Introducción}
+\input{introduccion/introduccion.tex}
+
+\newpage
+\section{Acceso al sistema}
+\input{acceso/acceso}
+
+\newpage
+\section{Roles y funciones}
+\input{roles/roles.tex}
+
+\newpage
+\section{Guía paso a paso por módulo}
+\input{guiamodulo/guiamodulo.tex}
+
+\newpage
+\section{Casos de uso frecuentes}
+\input{casosuso/casosuso.tex}
+
+\newpage
+\section{Recomendaciones y buenas prácticas}
+\input{recomendaciones/recomendaciones.tex}
+
+\newpage
+\section{Preguntas frecuentes (FAQ)}
+\input{preguntas/preguntas.tex}
+
+\newpage
+\section{Glosario}
+\input{glosario/glosario.tex}
+
+\bibliographystyle{plain}
+\bibliography{bibliografia/bibliografia}
+
+\end{document}

@@ -1,0 +1,3 @@
+Método;Endpoint;Descripción
+PUT;/CambiarPlan;Cambiar el plan de una cuenta.
+GET;/Planes;Consultar planes disponibles.

@@ -1,0 +1,65 @@
+A continuación, se detallan los procedimientos básicos para utilizar las funcionalidades del sistema ChibchaWeb, desde la perspectiva técnica. Este apartado no sustituye al manual de usuario final, sino que proporciona una guía operativa para verificar el correcto funcionamiento del sistema y realizar pruebas.
+
+\subsection{Acceso al sistema}
+\begin{enumerate}
+    \item Abrir el navegador y acceder al dominio principal: \href{https://www.chibchaweb.site/ }{https://www.chibchaweb.site/}
+    \item Iniciar sesión utilizando una cuenta registrada:
+    \begin{enumerate}
+        \item Para pruebas técnicas, se pueden usar cuentas de tipo administrador, distribuidor o empleado. 
+        \item Los accesos están restringidos según el idtipocuenta.
+    \end{enumerate}
+\end{enumerate}
+
+\subsection{Registro de nuevos usuarios}
+\begin{enumerate}
+    \item Desde el frontend, dirigirse al formulario correspondiente: 
+    \begin{enumerate}
+        \item Registro de clientes 
+        \item Registro de distribuidores
+        \item Registro de empleados
+    \end{enumerate}
+    \item Llenar los campos requeridos: 
+    \begin{enumerate}
+        \item Nombre, identificación, correo, teléfono, dirección, contraseña, tipo de cuenta, país y plan. 
+    \end{enumerate} 
+    \item Enviar el formulario. El sistema realiza una solicitud POST a la API (/registrar2). 
+    \item Verificar en la base de datos MySQL que los datos se almacenen correctamente en la tabla CUENTA. 
+\end{enumerate}
+
+\subsection{Gestión de dominio y facturación}
+\begin{enumerate}
+    \item Iniciar sesión como usuario autorizado (cliente o distribuidor). 
+    \item Navegar a la sección de dominios. 
+    \item Realizar una compra o agregar un dominio al carrito. 
+    \item Proceder con la facturación. 
+    \item Verificar en la base de datos que se actualicen las tablas relacionadas: 
+    \begin{enumerate}
+        \item DOMINIO, CARRITO, FACTURA, TRANSACCION.
+    \end{enumerate} 
+\end{enumerate}
+
+\subsection{}{Creación y seguimiento de tickets}
+\begin{enumerate}
+    \item Desde el frontend, acceder a la sección de soporte/tickets. 
+    \item Crear un nuevo ticket describiendo el problema o requerimiento. 
+    \item El sistema registra automáticamente la solicitud y, en segundo plano, utiliza la clave de OpenAI desde el backend para generar una respuesta automática inicial (si está habilitado). 
+    \item Los tickets pueden ser gestionados desde el panel administrativo. 
+\end{enumerate}
+
+\subsection{Verificación de autenticación y permisos}
+\begin{itemize}
+    \item La autenticación se maneja desde el backend mediante tokens. 
+    \item Los permisos se controlan con base en el idtipocuenta asignado. 
+    \item Verificar que: 
+    \begin{enumerate}
+        \item Usuarios con estado idestado = 5 no puedan iniciar sesión. 
+        \item Los formularios de login y registro validen correctamente los datos.
+    \end{enumerate} 
+\end{itemize}
+
+
+
+
+
+
+ 

@@ -1,0 +1,104 @@
+%configutación tablas
+\pgfplotstableset{
+    % Estilo general
+    every head row/.style={
+        before row=\hline\rowcolor{cafet}\bfseries\color{white},
+        after row=\hline,
+    },
+    every odd row/.style={before row=\rowcolor{gray!10}},
+    columns/Método/.style={string type},
+    columns/Endpoint/.style={string type, column type=p{7cm}},
+    columns/Descripción/.style={string type,column type=p{7cm},},
+    col sep=semicolon,
+}
+
+\subsection{Backend}
+El backend del proyecto fue desarrollado en Python 3.12 bajo FastAPI, utilizando SQLAlchemy ORM para la gestión de la base de datos MySQL, este fue dividido en varios módulos funcionales cómo son:
+\subsubsection{Módulo de Gestión de Carrito}
+Este módulo permite la gestión de dominios en carritos de compra por parte de la cuenta del cliente, sus endpoint principales se pueden ver en el siguiente cuadro:
+
+
+\begin{center}
+    \begin{table}[H]
+    \pgfplotstabletypeset[
+    col sep=semicolon,
+    header=true,
+    ]{desc/Carrito.dat}
+    \caption{Módulo de Gestión de Carrito}
+    \end{table}
+\end{center}
+
+
+\subsubsection{Módulo de Gestión de Dominios}
+Este módulo, cumple la funcionalidad de consultar y registrar dominios, así como verificar disponibilidad de estos y transferirlos por correo electrónico, a continuación se describen los principales endpoin de este:
+
+\begin{center}
+    \begin{table}[H]
+    \pgfplotstabletypeset[
+    col sep=semicolon,
+    header=true,
+    ]{desc/dominios.dat}
+    \caption{Módulo de Gestión de Dominios}
+    \end{table}
+\end{center}
+
+\subsubsection{Módulo de Cuentas y Autenticación}
+Este se centra en la funcionalidad de gestión de todas las cuentas del sistema (Cliente, distribuidor, administrador y empleado), donde se incluye, su registro, su ingreso  y su autenticación segura.
+
+\begin{center}
+    \begin{table}[H]
+        \pgfplotstabletypeset[
+        col sep=semicolon,
+        header=true,
+        ]{desc/cuentasautenticacion.dat}
+        \caption{Módulo de Cuentas y Autenticación}
+    \end{table}
+\end{center}
+
+\subsubsection{Módulo de Planes y Hosting}
+\begin{center}
+    \begin{table}[H]
+        \pgfplotstabletypeset[
+        col sep=semicolon,
+        header=true,
+        ]{desc/planeshosting.dat}
+        \caption{Módulo de Planes y Hosting}
+    \end{table}
+\end{center}
+
+\subsubsection{Módulo de Soporte y Ticket}
+\begin{center}
+    \begin{table}[H]
+        \pgfplotstabletypeset[
+        col sep=semicolon,
+        header=true,
+        ]{desc/tickets.dat}
+        \caption{Módulo de Soporte y Ticket}
+    \end{table}
+\end{center}
+
+\subsection{Middleware de Automatización (OpenAI)}
+El sistema integra un middleware con OpenAI para:
+\begin{itemize}
+    \item Clasificación automática de solicitudes entrantes (cancelación, reclamo, consulta, agradecimiento, solicitud, otra).
+    \item Generación automática de respuesta preliminar y cordial al cliente (vía correo), notificando recepción del ticket y plazo estimado de respuesta (24 a 48 horas).
+    \item Gestión de historial de tickets: todos los mensajes se almacenan como archivos JSON para trazabilidad.
+\end{itemize}
+Este componente utiliza el API de openrouter.ai y las claves definidas en las variables de entorno del backend (OPENAI\_API\_KEY).
+
+\subsection{Base de datos}
+La base de datos utilizada en el sistema es de tipo relacional, implementada sobre MySQL, con su gestión y visualización realizada a través de DBeaver. Su diseño responde a la lógica del negocio de un sistema de adquisición de dominios y hosting, integrando funcionalidades de carrito de compras, facturación, métodos de pago y gestión de usuarios.
+
+A continuación, se describe brevemente la estructura general de las entidades más relevantes:\\\\
+\textbf{CUENTA:} Representa a los usuarios registrados en el sistema. Almacena la información asociada a la cuenta del cliente.\\\\
+\textbf{CARRITO:} Contiene los productos (dominios o paquetes) seleccionados por el usuario para la compra. Se relaciona con las tablas ESTADOCARRITO, CARRITODOMINIO y FACTURA.\\\\
+\textbf{DOMINIO:} Define los nombres de dominio disponibles, incluyendo su precio y estado de ocupación.\\\\
+\textbf{CARRITODOMINIO}: Tabla intermedia que relaciona los dominios añadidos al carrito.\\\\
+\textbf{FACTURA:} Registra los pagos asociados a carritos finalizados, incluyendo el valor total, fecha y método de pago.\\\\
+\textbf{PAQUETEHOSING y INFOPAQUETEHOSING:} Juntas describen los servicios de hosting disponibles, sus características técnicas (espacio en disco, certificados SSL, correos, etc.) y periodicidad de cobro.\\\\
+\textbf{FACTURAPAQUETE e ITEMPAQUETE:} Vinculan los paquetes de hosting con las facturas emitidas, permitiendo registrar múltiples ítems por factura.\\\\
+\textbf{METODOPAGOCUENTA:} Permite al usuario registrar métodos de pago, ya sea tarjeta u otro tipo, asociados a su cuenta.\\\\
+\textbf{TARJETA y TIPOTARJETA:} Gestionan los datos de tarjetas de crédito o débito que pueden ser utilizadas como medio de pago.\\\\
+\textbf{TIPOMETODOPAGO:} Catálogo que clasifica los diferentes tipos de métodos de pago.\\\\
+\textbf{TICKET:} Módulo de soporte para generación y atención de incidencias o solicitudes por parte del cliente.\\\\
+\textbf{PAIS:} Entidad referencial para identificar el país del usuario o cuenta.

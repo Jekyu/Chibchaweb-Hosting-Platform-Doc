@@ -1,0 +1,9 @@
+Método;Endpoint;Descripción
+POST;/login;Autenticación de usuario.
+POST;/registrar2;Registro de nueva cuenta.
+GET;/cuentas-por-tipo;Obtener cuentas filtradas por tipo.
+POST;/cuenta-por-correo;Obtener datos de cuenta mediante correo electrónico.
+POST;/solicitar-registro;Solicitar registro de cuenta.
+GET;/confirmar-registro;Confirmar el registro de una cuenta.
+GET;/estoy-verificado;Verificar si una cuenta está validada.
+PUT;/admin/modificar-cuenta/{idcuenta};Modificar datos de una cuenta (solo administrador).

@@ -1,0 +1,8 @@
+Método;Endpoint;Descripción
+POST;/DominiosDisponible;Verificar si un dominio está disponible.
+POST;/agregarDominio;Agregar un nuevo dominio a la plataforma.
+PUT;/ActualizarOcupadoDominio;Actualizar el estado ocupado/libre de un dominio.
+POST;/dominios/agregar-a-carrito-existente;Agregar un dominio a un carrito ya creado.
+PUT;/TransferenciaDominio;Transferir un dominio entre cuentas.
+GET;/DominiosAdquiridos;Consultar dominios adquiridos por el usuario.
+GET;/dominios/vigencia;Obtener la vigencia de los dominios adquiridos.

@@ -1,0 +1,147 @@
+\subsection{Base de datos}
+Para realizar la instalación de la base de datos se cuenta con las siguientes dos opciones:
+\begin{itemize}
+    \item Instalación local la cual permite realizar cambios que no afectan la lógica de desarrollo ni la de producción.
+    \item Instalación producción la cual permite actualizar la base de datos que se comunica con todos los clientes del aplicativo.
+\end{itemize}
+
+\subsubsection{Local}
+Esta instalación es la que debe usarse para las diferentes etapas del desarollo de cualquier nueva funcionalidad.
+
+Para realizarse se deben seguir los siguientes procesos:
+
+\subsubsection*{Instalación MySQL}
+\begin{enumerate}
+	\item Instalar MySQL Server.
+	\item Crear la base de datos.
+        \begin{lstlisting}[language=sql]
+CREATE DATABASE chibchaweb;
+        \end{lstlisting}
+    \item Crear un nuevo usuario.
+        \begin{lstlisting}[language=sql]
+CREATE USER 'chibcha'@'localhost' identified by 'chibcha';
+        \end{lstlisting}
+	\item Otorgar y actualizar privilegios al usuario.
+        \begin{lstlisting}[language=sql]
+GRANT ALL PRIVILEGES ON chibcha.* TO 'chibcha'@'localhost';
+FLUSH PRIVILEGES;
+        \end{lstlisting}
+\end{enumerate}
+
+\subsubsection*{Configuración DBeaver}
+Ya instalado el Dbeaver se procede a crear nueva conexión en DBeaver:
+\begin{enumerate}
+\item Abrir DBeaver.
+\item Clic en "New Database Connection" (ícono de plug).
+\item Eligir MySQL.
+\item Llena los campos:
+    \begin{itemize}
+    \item Host:	localhost
+    \item Port:	3306
+    \item Database:	chibchaweb
+    \item Username:	chibcha
+    \item Password:	chibcha
+    \end{itemize}
+\item Clic en Test Connection.
+    \begin{itemize}
+	\item Permitir instalar el driver JDBC, solo aceptar y dejar que DBeaver lo descargue.
+    \end{itemize}
+\item Clic en Finish.
+\end{enumerate}
+
+\subsubsection*{Configuración Base de datos}
+\begin{enumerate}
+	\item Clonar el repositorio:
+	\begin{lstlisting}[language=bash]
+git clone https://github.com/Rocnarx/Chibchaweb-Hosting-Platform-Database.git
+    \end{lstlisting}
+     \item Ejecutar en Dbeaver el archivo CreacionDB.sql
+     \item Ejecutar en DBeaver el archivo DatosBasicos.sql
+
+\end{enumerate}
+\subsubsection{Producción}
+
+
+\subsection{Backend}
+\subsubsection{Local}
+\subsubsection*{Configurar requirimientos}
+\begin{enumerate}
+	\item Descargar e instalar Python 3.12
+	\begin{itemize}
+	\item Windows:
+	Descargar de https://www.python.org/downloads/release/python-3120/
+	\item Linux:
+	    \begin{lstlisting}[language=bash]
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.12 python3.12-venv python3.12-dev
+        \end{lstlisting}
+	\end{itemize}
+\end{enumerate}
+
+\subsubsection*{Configurar Back}
+\begin{enumerate}
+    \item En la carpeta back crear un entorno virtual
+        \begin{lstlisting}[language=bash]
+    python3 -m venv ChibchaBack
+       \end{lstlisting}
+    \item Iniciar el entorno virtual
+
+    \begin{lstlisting}[language=bash]
+    # -- Windows
+    ./ChibchaBack/Scripts/activate
+    #Linux
+    source ChibchaBack/bin/activate
+    \end{lstlisting}
+
+	\item Clonar el repositorio:
+	\begin{lstlisting}[language=bash]
+    git clone https://github.com/Rocnarx/Chibchaweb-Hosting-Platform-Backend.git
+    \end{lstlisting}
+
+    \item Instalar los paquetes requeridos que se encuentran en archivo requeriments.text:
+    \begin{lstlisting}[language=bash]
+    pip install -r Chibchaweb-Hosting-Platform-Backend/requirements.txt
+    \end{lstlisting}
+
+
+     \item
+
+\end{enumerate}
+\subsubsection{Producción}
+
+\subsection{Front}
+
+\subsubsection{Local}
+\subsubsection*{Configurar requerimientos}
+\begin{enumerate}
+    \item Instalar Node.js y npm
+    \begin{itemize}
+        \item Windows: Descargar e instalar desde nodejs.org (recomiendo la versión LTS)
+        \item Linux:
+        \begin{lstlisting}[language=bash]
+    sudo apt update
+    sudo apt install nodejs npm
+        \end{lstlisting}
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection*{Configurar Front}
+
+\begin{enumerate}
+    \item Clonar el repositorio en la carpeta destinada a Front
+    \begin{lstlisting}[language=bash]
+git clone https://github.com/Rocnarx/Chibchaweb-Hosting-Platform-Frontend.git
+    \end{lstlisting}
+     \item Acceder a la carpeta de proyecto e instalar las dependencias
+     \begin{lstlisting}[language=bash]
+     cd Chibchaweb-Hosting-Platform-Frontend
+     npm install
+     \end{lstlisting}
+     \item Ejecutar el proyecto en desarrollo
+     \begin{lstlisting}[language=bash]
+     npm run dev
+     \end{lstlisting}
+\end{enumerate}

@@ -1,0 +1,10 @@
+Método;Endpoint;Descripción
+POST;/CrearTicket;Crear un nuevo ticket de soporte.
+POST;/ticket/{codigo}/respuesta;Agregar una respuesta a un ticket existente.
+GET;/consultarTicketporIDCUENTA;Consultar tickets abiertos por una cuenta.
+PATCH;/CambiarNivelTicket/{codigo};Cambiar el nivel de prioridad del ticket.
+PATCH;/CambiarEstadoTicket/{codigo};Cambiar el estado de un ticket.
+PATCH;/asignarTicket/{codigo};Asignar un ticket a un empleado.
+GET;/ticket/{codigo};Obtener detalles de un ticket específico.
+GET;/ver-tickets;Consultar tickets por estado.
+GET;/ver-tickets-niveles;Consultar tickets por estado y nivel de prioridad.

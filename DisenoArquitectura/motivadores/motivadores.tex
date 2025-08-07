@@ -1,0 +1,153 @@
+\subsection{Motivadores de Negocio}
+Los motivadores de negocio que se mostrarán a continuación definen las razones por las cuales ChibchaWeb requiere una nueva solución de software. Entre las cuales se encuentran:
+
+\subsubsection{Expansión internacional del negocio}
+ChibchaWeb, actualmente con clientes en Colombia y países vecinos, proyecta una expansión hacia mercados internacionales como África. Esto requiere una plataforma escalable y flexible que soporte la gestión de clientes, dominios y facturación en diferentes regiones.
+
+\subsubsection{Automatización de procesos clave}
+El sistema busca automatizar la creación, edición y eliminación de perfiles de clientes, empleados y distribuidores, reduciendo la carga operativa y los errores humanos, y facilitando la trazabilidad de operaciones críticas.
+
+\subsubsection{Mejora en la atención al cliente y soporte técnic}
+
+Al permitir el registro y seguimiento de tickets, el sistema mejorará el proceso de resolución de problemas, permitiendo al equipo de soporte priorizar incidencias y mejorar los tiempos de respuesta, alineándose con los niveles de servicio ofrecidos.
+
+\subsubsection{Gestión y segmentación de distribuidores}
+Con la existencia de distribuidores BÁSICOS y PREMIUM, el sistema debe permitir su categorización, cálculo de comisiones correspondientes (10% o 15%), y la generación de reportes financieros para pagos electrónicos, fomentando relaciones sólidas con aliados estratégicos.
+
+\subsubsection{Flexibilidad en métodos de pago}
+Actualmente se aceptan tarjetas de crédito, pero se planea incluir otros métodos como PSE. Esto requiere una arquitectura extensible que permita integrar fácilmente nuevos métodos de pago en el futuro sin afectar la operatividad actual.
+
+\subsection{Restricciones de Tecnología}
+El desarrollo de la plataforma para ChibchaWeb estará sujeto a las siguientes restricciones tecnológicas, derivadas de decisiones de arquitectura, compatibilidad, mantenibilidad y recursos disponibles:
+
+Tecnologías definidas por el equipo de desarrollo
+
+ \subsubsection{Frontend}
+
+Se utilizará React.js como framework principal para la construcción de la interfaz de usuario, debido a su eficiencia, modularidad y gran comunidad de soporte.
+
+\subsubsection{Backend}
+
+Se empleará FastAPI con Python, por su rendimiento, facilidad de definición de servicios RESTful, y compatibilidad con documentación automática.
+
+\subsubsection{Base de datos}
+
+Se usará MySQL, una base de datos relacional robusta y ampliamente soportada, ideal para mantener la integridad referencial y relaciones entre entidades complejas (clientes, empleados, dominios, etc.).
+
+\subsubsection{Control de versiones y colaboración}
+
+El proyecto estará versionado mediante GitHub, lo cual permitirá control de cambios, trabajo colaborativo y despliegue continuo si se requiere.
+
+\subsection{Restricciones de Negocio}
+El desarrollo y funcionamiento del sistema estarán sujetos a diversas restricciones impuestas por las necesidades, normativas y condiciones del entorno comercial del proyecto. Estas restricciones afectan la manera en que se diseña y entrega la solución, e incluyen:
+
+\subsubsection{Políticas de manejo de cuentas }
+
+Solo se permitirán 4 tipos de cuentas: cliente, administrador, empleado y distribuidor, cada una con permisos y accesos claramente definidos. No se admitirán roles personalizados fuera de estas categorías durante la fase inicial del sistema.
+
+\subsubsection{Manejo de dominios basado en disponibilidad externa }
+
+La compra de dominios dependerá de su disponibilidad en registros externos. Si el dominio ya está tomado, no podrá ser adquirido ni facturado, lo cual impone una dependencia con proveedores externos y puede requerir lógica de validación en tiempo real.
+
+\subsection{Atributos de Calidad}
+
+Durante el desarrollo del sistema ChibchaWeb, se identificaron ciertos atributos de calidad que orientaron decisiones técnicas y de arquitectura. A continuación, se describen los principales, en función de la experiencia práctica con el sistema ya desplegado y en funcionamiento.
+
+\subsubsection{Disponibilidad}
+
+El sistema actualmente está desplegado mediante Railway, por lo tanto, su disponibilidad depende del servicio que ofrece esta plataforma. No se cuenta con una infraestructura propia, pero la integración entre base de datos, backend y frontend se mantiene activa y estable mientras Railway esté operativo. Esta disponibilidad es suficiente para los fines actuales, aunque si en un futuro fuera necesario se podría considerar una solución con mayor control sobre el entorno de producción.
+
+\subsubsection{Seguridad}
+
+Se implementó un sistema de autenticación por correo electrónico, en el cual los usuarios reciben un código de verificación. Solo quienes completen este proceso pueden acceder a las funciones reservadas para clientes. Esta medida ha resultado efectiva para restringir accesos y proteger la información del usuario, y se aplican validaciones en los formularios.
+
+
+\subsubsection{Rendimiento}
+
+La aplicación responde de forma fluida gracias a la conexión directa con las APIs del backend. No se ven demoras significativas al realizar operaciones como búsquedas, registros, etc.
+
+
+\subsubsection{Escalabilidad}
+
+Actualmente el sistema permite operaciones como búsqueda de dominios y la “compra” como tal, lo cual es una base para un entorno escalable. Aunque todavía no se ofrecen servicios de hosting reales desde la plataforma, el sistema está preparado para incluir esa funcionalidad más adelante, como tal el nucleo del sistema nos permite esto
+
+
+\subsubsection{Mantenibilidad}
+
+El código está organizado de forma clara, permitiendo modificar o añadir funcionalidades sin afectar lo ya implementado. Se han realizado ajustes menores y correcciones sin mayores inconvenientes, lo que demuestra que el sistema es mantenible. Además, se pueden actualizar componentes del frontend o backend de manera independiente.
+
+
+\subsubsection{Usabilidad}
+
+Desde la perspectiva del cliente, la interfaz es bastante intuitiva. Las funciones están bien distribuidas y no es necesario tener conocimientos técnicos para navegar o realizar operaciones básicas. En el caso del personal de soporte o empleados, hay más funciones que requieren cierta formación, como el manejo de tickets, pero están diseñadas de forma clara.
+
+
+\subsubsection{Interoperabilidad}
+
+El sistema se comunica con servicios externos mediante peticiones web, especialmente para consultar la disponibilidad de dominios. Para ello, se implementó un proceso de scraping que permite validar si un dominio está disponible o no.
+
+
+\subsubsection{Recabación y justificació de Requerimientos No Funcionales}
+Durante la planificación y construcción del sistema ChibchaWeb, se identificaron diversos requerimientos no funcionales a partir de las necesidades específicas del proyecto, la experiencia con despliegues reales, y las condiciones técnicas impuestas por el entorno en el que opera la aplicación. Estos requerimientos no son visibles directamente para el usuario final, pero son determinantes para que el sistema sea confiable, seguro y sostenible en el tiempo.
+
+\begin{itemize}
+    \item {Las operaciones realizadas por el usuario (como la búsqueda de dominios, la carga de formularios o la visualización de datos) no es de un tiempo significativo o excesivo, esto mejora la experiencia del usuario, esto gracias al uso de las Apis }
+    \item {Aunque actualmente se encuentra todo en el servicio de railway para el despligue, fuera de eso el sistema es funcional y estable. }
+    \item {Solo los usuarios verificados deben tener acceso a funcionalidades sensibles del sistema. Además, los datos sensibles  como contraseña están protegidos  }
+    \item {El sistema esta preparado para soportar un aumento progresivo de usuarios y funcionalidades sin comprometer el rendimiento, aunque recalcar que al menos en esta fase la disponibilidad no depende tanto de nosotros, sino del servicio de railway }
+    \item {En diferentes momentos del proyecto se han realizado cambios o mejoras con relativa facilidad, lo que indica que se ha logrado un diseño mantenible. }
+    \item {Ya se implementó una primera forma de integración con servicios de disponibilidad de dominios usando scraping. Esta capacidad de interactuar con sistemas externos es la clave para estas funcionalidades. }
+\end{itemize}
+
+\subsubsection{Escenarios de Calidad}
+Los escenarios de calidad permiten evaluar cómo se comporta el sistema ante situaciones específicas que afectan atributos no funcionales como el rendimiento, la seguridad o la disponibilidad. A continuación se presentan algunos escenarios relevantes que reflejan condiciones reales o esperadas para la plataforma ChibchaWeb:
+
+\subsubsection*{Consulta masiva de dominios disponibles}
+
+\begin{itemize}
+\item \textbf{Contexto:} Un distribuidor accede a la plataforma y realiza varias búsquedas consecutivas para verificar la disponibilidad de dominios para sus clientes.
+
+\item \textbf{Estimulación:} Se ejecutan 10 a 15 búsquedas en un corto periodo de tiempo.
+
+\item \textbf{Respuesta esperada:} El sistema podra responder a estas consultas en un tiempo no tan significativo, sin errores ni bloqueos.
+\end{itemize}
+
+\subsubsection*{Intento de acceso sin verificación de correo}
+
+\begin{itemize}
+\item \textbf{Contexto:} Un usuario se registra pero no verifica su correo electrónico.
+
+\item \textbf{Estimulación:} Intenta acceder a las funcionalidades de cliente como compra de dominio o visualización del perfil.
+
+\item \textbf{Respuesta esperada:} El sistema bloquea el acceso y solicita la verificación de correo antes de continuar.
+\end{itemize}
+
+ \subsubsection*{Actualización del backend sin detener el sistema completo}
+
+\begin{itemize}
+\item \textbf{Contexto:} Se implementa una mejora en una API del backend.
+
+\item \textbf{Estimulación:} Se despliega el nuevo backend mientras la base de datos y el frontend siguen activos.
+
+\item \textbf{Respuesta esperada:} El sistema sigue funcionando normalmente o se interrumpe solo por un corto tiempo. No se generan inconsistencias.
+\end{itemize}
+
+\subsubsection*{Interacción de un cliente no técnico}
+
+\begin{itemize}
+\item \textbf{Contexto:} Un cliente nuevo accede al sistema para registrar su primer dominio.
+
+\item \textbf{Estimulación:} Usa la interfaz para buscar un dominio, registrar sus datos y simular un pago.
+
+\item \textbf{Respuesta esperada:} El cliente puede completar la operación sin necesidad de asistencia. Los pasos son claros y comprensibles.
+\end{itemize}
+
+\subsubsection*{Caída temporal del servicio Railway}
+
+\begin{itemize}
+\item \textbf{Contexto:} Railway presenta una interrupción temporal.
+
+\item \textbf{Estimulación:} Usuarios intentan ingresar al sistema durante el tiempo en que el servicio está inactivo.
+
+\item \textbf{Respuesta esperada:} El sistema no responde (fuera de servicio), pero se recupera automáticamente cuando Railway vuelve a estar disponible, sin pérdida de información.
+\end{itemize}

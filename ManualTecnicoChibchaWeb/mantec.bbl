@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{mysql}
+{Oracle Corporation}.
+\newblock Mysql documentation, 2025.
+\newblock \url{https://dev.mysql.com/doc/}, Accedido el 5 de agosto de 2025.
+
+\bibitem{flask}
+{Pallets Projects}.
+\newblock Flask documentation, 2025.
+\newblock \url{https://flask.palletsprojects.com/}, Accedido el 5 de agosto de
+  2025.
+
+\bibitem{bootstrap}
+{The Bootstrap Authors}.
+\newblock Bootstrap documentation, 2025.
+\newblock \url{https://getbootstrap.com/docs/}, Accedido el 5 de agosto de
+  2025.
+
+\end{thebibliography}
