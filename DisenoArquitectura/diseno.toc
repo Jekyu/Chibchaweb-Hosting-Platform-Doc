@@ -62,6 +62,6 @@
 \contentsline {subsection}{\numberline {10.2}Punto de Vista: Interacción}{22}{subsection.10.2}%
 \contentsline {subsubsection}{\numberline {10.2.1}Diagrama de Casos de Uso}{22}{subsubsection.10.2.1}%
 \contentsline {subsubsection}{\numberline {10.2.2}Diagramas de Secuencia}{22}{subsubsection.10.2.2}%
-\contentsline {subsection}{\numberline {10.3}Punto de Vista: Desarrollo (Diagrama de Clases o cualquier otro)}{22}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}Punto de Vista: Modelo Relacional de la BBDD.}{22}{subsection.10.4}%
-\contentsline {section}{\numberline {11}Firmas de aceptación con fecha (DD/MM/AAAA)}{22}{section.11}%
+\contentsline {subsection}{\numberline {10.3}Punto de Vista: Desarrollo}{30}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Punto de Vista: Modelo Relacional de la BBDD}{30}{subsection.10.4}%
+\contentsline {section}{\numberline {11}Firmas de aceptación con fecha (DD/MM/AAAA)}{30}{section.11}%
