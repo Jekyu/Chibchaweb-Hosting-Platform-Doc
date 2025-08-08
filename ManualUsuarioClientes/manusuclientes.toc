@@ -1,34 +1,22 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
-\contentsline {section}{\numberline {2}Acceso al sistema}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Requisitos}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Acceso al sistema}{3}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Registro de usuario }{4}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Inicio de sesión}{7}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Roles y funciones}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Cliente}{8}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Distribuidor}{8}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Guía paso a paso por módulo}{9}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Cliente}{9}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Buscar y registrar dominios }{9}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Contratar planes de hosting }{9}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}Usar el carrito de compras }{9}{subsubsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.4}Consultar y pagar facturas }{9}{subsubsection.4.1.4}%
-\contentsline {subsubsection}{\numberline {4.1.5}Crear y gestionar tickets de soporte }{9}{subsubsection.4.1.5}%
-\contentsline {subsubsection}{\numberline {4.1.6}Gestionar su cuenta y métodos de pago }{9}{subsubsection.4.1.6}%
-\contentsline {subsection}{\numberline {4.2}Distribuidor}{9}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Registro de clientes}{9}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Consulta de comisiones}{9}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Reportes de actividad}{9}{subsubsection.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.4}Gestión de su red de cuentas}{9}{subsubsection.4.2.4}%
-\contentsline {section}{\numberline {5}Casos de uso frecuentes}{10}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Cómo cambiar el método de pago}{10}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Cómo recuperar un dominio expirado}{10}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Cómo transferir un dominio}{10}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Cómo generar una factura PDF}{10}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Recomendaciones y buenas prácticas}{11}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Seguridad de la cuenta}{11}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Uso responsable de recursos}{11}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Soporte proactivo}{11}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Preguntas frecuentes (FAQ)}{12}{section.7}%
-\contentsline {section}{\numberline {8}Glosario}{13}{section.8}%
+\contentsline {section}{\numberline {1}Introducción}{3}{section.1}%
+\contentsline {section}{\numberline {2}Acceso al sistema}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Requisitos}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Acceso al sistema}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Registro de usuario }{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Inicio de sesión}{8}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Roles y funciones}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Cliente}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Distribuidor}{9}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Guía paso a paso por módulo}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Gestionar su cuenta y métodos de pago}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Buscar y registrar dominios}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Usar el carrito de compras}{12}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Casos de uso frecuentes}{14}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Cómo revisar los métodos de pago}{14}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Cómo transferir un dominio}{14}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Recomendaciones y buenas prácticas}{16}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Seguridad de la cuenta}{16}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Uso responsable de recursos}{16}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Soporte proactivo}{16}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Glosario}{17}{section.7}%

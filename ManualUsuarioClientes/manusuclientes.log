@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  6 AUG 2025 18:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  7 AUG 2025 19:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -928,7 +928,7 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into
 your preamble.
  on input line 96.
 
-<logo.png, id=139, 855.26627pt x 855.26627pt>
+<logo.png, id=91, 855.26627pt x 855.26627pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 98.
@@ -979,12 +979,12 @@ rtada.tex
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<registro-imagen.png, id=150, 219.82124pt x 408.77719pt>
+<registro-imagen.png, id=102, 219.82124pt x 408.77719pt>
 File: registro-imagen.png Graphic file (type png)
 <use registro-imagen.png>
 Package pdftex.def Info: registro-imagen.png  used on input line 7.
 (pdftex.def)             Requested size: 454.45352pt x 845.04684pt.
-<logomanual.png, id=151, 313.17pt x 92.345pt>
+<logomanual.png, id=103, 313.17pt x 92.345pt>
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 12.
@@ -1004,25 +1004,33 @@ l.20 \end{titlepage}
 
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 104.
+Package pdftex.def Info: logomanual.png  used on input line 105.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104 \newpage
-               [1] (./introduccion/introduccion.tex)
+l.105 \newpage
+               [1] (./manusuclientes.lof)
+\tf@lof=\write6
+\openout6 = `manusuclientes.lof'.
+
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 108.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [2] (./acceso/acceso.tex
+ [2] (./introduccion/introduccion.tex)
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 112.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+[3] (./acceso/acceso.tex
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-<acceso/inicio.png, id=203, 1280.785pt x 651.43375pt>
+<acceso/inicio.png, id=189, 1280.785pt x 651.43375pt>
 File: acceso/inicio.png Graphic file (type png)
 <use acceso/inicio.png>
 Package pdftex.def Info: acceso/inicio.png  used on input line 36.
@@ -1031,13 +1039,13 @@ File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 40.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
-[3]
-<acceso/navbar-perfil.png, id=210, 1166.3575pt x 90.3375pt>
+[4]
+<acceso/navbar-perfil.png, id=196, 1166.3575pt x 90.3375pt>
 File: acceso/navbar-perfil.png Graphic file (type png)
 <use acceso/navbar-perfil.png>
 Package pdftex.def Info: acceso/navbar-perfil.png  used on input line 47.
 (pdftex.def)             Requested size: 455.24411pt x 35.25903pt.
-<acceso/login-registro.png, id=211, 1280.785pt x 650.43pt>
+<acceso/login-registro.png, id=197, 1280.785pt x 650.43pt>
 File: acceso/login-registro.png Graphic file (type png)
 <use acceso/login-registro.png>
 Package pdftex.def Info: acceso/login-registro.png  used on input line 54.
@@ -1046,7 +1054,7 @@ File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 59.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [4
+ [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1061,12 +1069,12 @@ s been already used, duplicate ignored
 l.59         \item S
                     i su registro es cómo cliente, llene el formulario sigu...
  <./acceso/inicio.png> <./acceso/navbar-perfil.png>]
-<acceso/registro-cliente.png, id=220, 1276.77pt x 643.40375pt>
+<acceso/registro-cliente.png, id=205, 1276.77pt x 643.40375pt>
 File: acceso/registro-cliente.png Graphic file (type png)
 <use acceso/registro-cliente.png>
 Package pdftex.def Info: acceso/registro-cliente.png  used on input line 62.
 (pdftex.def)             Requested size: 455.24411pt x 229.4064pt.
-<acceso/registro-distribuidor.png, id=221, 1280.785pt x 652.4375pt>
+<acceso/registro-distribuidor.png, id=206, 1280.785pt x 652.4375pt>
 File: acceso/registro-distribuidor.png Graphic file (type png)
 <use acceso/registro-distribuidor.png>
 Package pdftex.def Info: acceso/registro-distribuidor.png  used on input line 6
@@ -1076,7 +1084,7 @@ File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 73.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [5
+ [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1090,21 +1098,21 @@ s been already used, duplicate ignored
 l.73     \end{enumerate}
                          <./acceso/login-registro.png> <./acceso/registro-clien
 te.png>]
-<acceso/email-verificacion.png, id=232, 1027.84pt x 201.75375pt>
+<acceso/email-verificacion.png, id=214, 1027.84pt x 201.75375pt>
 File: acceso/email-verificacion.png Graphic file (type png)
 <use acceso/email-verificacion.png>
 Package pdftex.def Info: acceso/email-verificacion.png  used on input line 78.
 (pdftex.def)             Requested size: 455.24411pt x 89.35991pt.
-<acceso/confirmar.png, id=233, 345.29pt x 328.22626pt>
+<acceso/confirmar.png, id=215, 345.29pt x 328.22626pt>
 File: acceso/confirmar.png Graphic file (type png)
 <use acceso/confirmar.png>
 Package pdftex.def Info: acceso/confirmar.png  used on input line 85.
-(pdftex.def)             Requested size: 284.52756pt x 270.46947pt.
+(pdftex.def)             Requested size: 182.09486pt x 173.09764pt.
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 89.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [6
+ [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1117,62 +1125,246 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.89 \end{enumerate}
                      <./acceso/registro-distribuidor.png> <./acceso/email-verif
-icacion.png>])
-File: logomanual.png Graphic file (type png)
-<use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 112.
-(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [7
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.112 \newpage
-               <./acceso/confirmar.png>] (./roles/roles.tex)
+icacion.png>]
+<acceso/cliente-perfil.png, id=224, 383.18156pt x 315.42844pt>
+File: acceso/cliente-perfil.png Graphic file (type png)
+<use acceso/cliente-perfil.png>
+Package pdftex.def Info: acceso/cliente-perfil.png  used on input line 100.
+(pdftex.def)             Requested size: 273.14923pt x 224.86542pt.
+)
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 116.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [8]
-(./guiamodulo/guiamodulo.tex)
+ [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.116 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.116 \newpage
+               <./acceso/confirmar.png> <./acceso/cliente-perfil.png (PNG copy)
+>] (./roles/roles.tex)
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 120.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [9] (./casosuso/casosuso.tex)
+ [9] (./guiamodulo/guiamodulo.tex
+<guiamodulo/navbar-miperfil.png, id=233, 953.81343pt x 70.01157pt>
+File: guiamodulo/navbar-miperfil.png Graphic file (type png)
+<use guiamodulo/navbar-miperfil.png>
+Package pdftex.def Info: guiamodulo/navbar-miperfil.png  used on input line 6.
+(pdftex.def)             Requested size: 364.19667pt x 26.73285pt.
+<guiamodulo/perfil-metodopago.png, id=234, 347.79938pt x 280.04625pt>
+File: guiamodulo/perfil-metodopago.png Graphic file (type png)
+<use guiamodulo/perfil-metodopago.png>
+Package pdftex.def Info: guiamodulo/perfil-metodopago.png  used on input line 1
+4.
+(pdftex.def)             Requested size: 273.14923pt x 219.94788pt.
+<guiamodulo/metodopago.png, id=235, 249.93375pt x 283.0575pt>
+File: guiamodulo/metodopago.png Graphic file (type png)
+<use guiamodulo/metodopago.png>
+Package pdftex.def Info: guiamodulo/metodopago.png  used on input line 22.
+(pdftex.def)             Requested size: 227.62206pt x 257.79866pt.
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 26.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+ [10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.26 \end{itemize}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.26 \end{itemize}
+                   <./guiamodulo/navbar-miperfil.png (PNG copy)> <./guiamodulo/
+perfil-metodopago.png (PNG copy)>]
+<guiamodulo/domino.png, id=241, 543.53062pt x 260.47313pt>
+File: guiamodulo/domino.png Graphic file (type png)
+<use guiamodulo/domino.png>
+Package pdftex.def Info: guiamodulo/domino.png  used on input line 36.
+(pdftex.def)             Requested size: 364.19667pt x 174.53993pt.
+<guiamodulo/navbar-carrito.png, id=242, 962.09438pt x 67.0003pt>
+File: guiamodulo/navbar-carrito.png Graphic file (type png)
+<use guiamodulo/navbar-carrito.png>
+Package pdftex.def Info: guiamodulo/navbar-carrito.png  used on input line 48.
+(pdftex.def)             Requested size: 364.19667pt x 25.36325pt.
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 51.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+ [11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.51     \end{figure}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.51     \end{figure}
+                      <./guiamodulo/metodopago.png (PNG copy)> <./guiamodulo/do
+mino.png (PNG copy)>]
+<guiamodulo/carrito-pago.png, id=250, 624.08156pt x 274.77657pt>
+File: guiamodulo/carrito-pago.png Graphic file (type png)
+<use guiamodulo/carrito-pago.png>
+Package pdftex.def Info: guiamodulo/carrito-pago.png  used on input line 56.
+(pdftex.def)             Requested size: 364.19667pt x 160.3558pt.
+<guiamodulo/carrito-aviso.png, id=251, 462.97969pt x 137.01187pt>
+File: guiamodulo/carrito-aviso.png Graphic file (type png)
+<use guiamodulo/carrito-aviso.png>
+Package pdftex.def Info: guiamodulo/carrito-aviso.png  used on input line 64.
+(pdftex.def)             Requested size: 227.62206pt x 67.36218pt.
+<guiamodulo/domino-usuario.png, id=252, 754.31813pt x 198.7425pt>
+File: guiamodulo/domino-usuario.png Graphic file (type png)
+<use guiamodulo/domino-usuario.png>
+Package pdftex.def Info: guiamodulo/domino-usuario.png  used on input line 72.
+(pdftex.def)             Requested size: 364.19667pt x 95.95633pt.
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 76.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+ [12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.76 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.76 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.76 
+      <./guiamodulo/navbar-carrito.png (PNG copy)> <./guiamodulo/carrito-pago.p
+ng (PNG copy)> <./guiamodulo/carrito-aviso.png (PNG copy)>])
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 124.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [10]
-(./recomendaciones/recomendaciones.tex)
+ [13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.124 \newpage
+               <./guiamodulo/domino-usuario.png (PNG copy)>]
+(./casosuso/casosuso.tex
+<casosuso/perfil-mismetodos.png, id=265, 362.85562pt x 307.1475pt>
+File: casosuso/perfil-mismetodos.png Graphic file (type png)
+<use casosuso/perfil-mismetodos.png>
+Package pdftex.def Info: casosuso/perfil-mismetodos.png  used on input line 6.
+(pdftex.def)             Requested size: 273.14923pt x 231.21771pt.
+<casosuso/mismetodos.png, id=266, 557.83406pt x 158.09062pt>
+File: casosuso/mismetodos.png Graphic file (type png)
+<use casosuso/mismetodos.png>
+Package pdftex.def Info: casosuso/mismetodos.png  used on input line 15.
+(pdftex.def)             Requested size: 364.19667pt x 103.216pt.
+<casosuso/navbar-misdominios.png, id=267, 928.97063pt x 68.50594pt>
+File: casosuso/navbar-misdominios.png Graphic file (type png)
+<use casosuso/navbar-misdominios.png>
+Package pdftex.def Info: casosuso/navbar-misdominios.png  used on input line 25
+.
+(pdftex.def)             Requested size: 364.19667pt x 26.85727pt.
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 29.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+ [14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.29 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.29 
+      <./casosuso/perfil-mismetodos.png (PNG copy)> <./casosuso/mismetodos.png 
+(PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+
+ []
+
+<casosuso/dominios-transferir.png, id=273, 459.96844pt x 322.20375pt>
+File: casosuso/dominios-transferir.png Graphic file (type png)
+<use casosuso/dominios-transferir.png>
+Package pdftex.def Info: casosuso/dominios-transferir.png  used on input line 3
+5.
+(pdftex.def)             Requested size: 273.14923pt x 191.34734pt.
+<casosuso/dominios-aviso.png, id=274, 429.85594pt x 139.27031pt>
+File: casosuso/dominios-aviso.png Graphic file (type png)
+<use casosuso/dominios-aviso.png>
+Package pdftex.def Info: casosuso/dominios-aviso.png  used on input line 43.
+(pdftex.def)             Requested size: 273.14923pt x 88.4994pt.
+)
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 128.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [11] (./preguntas/preguntas.tex)
+ [15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.128 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.128 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.128 \newpage
+               <./casosuso/navbar-misdominios.png (PNG copy)> <./casosuso/domin
+ios-transferir.png (PNG copy)> <./casosuso/dominios-aviso.png (PNG copy)>]
+(./recomendaciones/recomendaciones.tex)
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 132.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
-
-[12] (./glosario/glosario.tex
+ [16] (./glosario/glosario.tex
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 41.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [13]
+ [17]
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 83.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [14])
+
+[18])
 No file manusuclientes.bbl.
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 139.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
-[15] 
+[19] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./manusuclientes.aux)
  ***********
@@ -1180,13 +1372,13 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `manusuclientes.out' has not changed.
-(rerunfilecheck)             Checksum: CF2572AF92B1D4CE2308CE44080DA153;5824.
+(rerunfilecheck)             Checksum: 32E4D4CE4367D3E45F252786EDE151E1;3458.
  ) 
 Here is how much of TeX's memory you used:
- 36606 strings out of 476106
- 847553 string characters out of 5793934
- 1937975 words of memory out of 5000000
- 57974 multiletter control sequences out of 15000+600000
+ 36715 strings out of 476106
+ 850882 string characters out of 5793934
+ 1933975 words of memory out of 5000000
+ 58072 multiletter control sequences out of 15000+600000
  567944 words of font info for 74 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  94i,16n,94p,729b,667s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1195,10 +1387,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on manusuclientes.pdf (17 pages, 4288697 bytes).
+Output written on manusuclientes.pdf (21 pages, 4706194 bytes).
 PDF statistics:
- 323 PDF objects out of 1000 (max. 8388607)
- 279 compressed objects within 3 object streams
- 68 named destinations out of 1000 (max. 500000)
- 327 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 301 words of extra memory for PDF output out of 10000 (max. 10000000)
 
