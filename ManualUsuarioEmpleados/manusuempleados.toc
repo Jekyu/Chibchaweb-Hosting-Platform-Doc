@@ -1,30 +1,30 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Introducción}{3}{section.1}%
-\contentsline {section}{\numberline {2}Roles y funciones}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Técnico}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Coordinador}{4}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Administrador}{4}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Acceso al sistema}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Requisitos}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Acceso al sistema}{5}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Registro de usuario }{6}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Inicio de sesión}{7}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Guía paso a paso por módulo}{9}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Técnico}{9}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Coordinador}{10}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Gestión de tickets }{10}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Asignación de tickets }{11}{subsubsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.3}Administrador}{11}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Modificar Precios de dominios}{12}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}Gestionar Usuarios}{13}{subsubsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.3}Gestionar Postulados}{14}{subsubsection.4.3.3}%
-\contentsline {subsubsection}{\numberline {4.3.4}Gestionar Empleados}{15}{subsubsection.4.3.4}%
-\contentsline {subsubsection}{\numberline {4.3.5}Gestionar Coordinadores}{16}{subsubsection.4.3.5}%
-\contentsline {subsubsection}{\numberline {4.3.6}Gestionar Distribuidores}{17}{subsubsection.4.3.6}%
-\contentsline {subsubsection}{\numberline {4.3.7}Gestionar planes de Hosting}{18}{subsubsection.4.3.7}%
-\contentsline {subsubsection}{\numberline {4.3.8}Gestionar perfil }{21}{subsubsection.4.3.8}%
-\contentsline {section}{\numberline {5}Recomendaciones y buenas prácticas}{22}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Seguridad de la cuenta}{22}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Uso responsable de recursos}{22}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Soporte proactivo}{22}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Glosario}{23}{section.6}%
+\contentsline {section}{\numberline {1}Introducción}{4}{section.1}%
+\contentsline {section}{\numberline {2}Roles y funciones}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Técnico}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Coordinador}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Administrador}{5}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Acceso al sistema}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Requisitos}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Acceso al sistema}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Registro de usuario }{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Inicio de sesión}{8}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Guía paso a paso por módulo}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Técnico}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Coordinador}{11}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Gestión de tickets }{11}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Asignación de tickets }{12}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}Administrador}{13}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Modificar Precios de dominios}{14}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Gestionar Usuarios}{15}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Gestionar Postulados}{16}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}Gestionar Empleados}{17}{subsubsection.4.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.5}Gestionar Coordinadores}{18}{subsubsection.4.3.5}%
+\contentsline {subsubsection}{\numberline {4.3.6}Gestionar Distribuidores}{19}{subsubsection.4.3.6}%
+\contentsline {subsubsection}{\numberline {4.3.7}Gestionar planes de Hosting}{20}{subsubsection.4.3.7}%
+\contentsline {subsubsection}{\numberline {4.3.8}Gestionar perfil }{23}{subsubsection.4.3.8}%
+\contentsline {section}{\numberline {5}Recomendaciones y buenas prácticas}{24}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Seguridad de la cuenta}{24}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Uso responsable de recursos}{24}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Soporte proactivo}{24}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Glosario}{25}{section.6}%

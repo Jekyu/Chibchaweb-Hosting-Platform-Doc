@@ -1,3 +1,5 @@
+Para realizar la instalación se recomenda crear una carpeta general para el proyecto, dentro de esta carpetas separadas por cada lógica.
+
 \subsection{Base de datos}
 Para realizar la instalación de la base de datos se cuenta con las siguientes dos opciones:
 \begin{itemize}
@@ -5,7 +7,6 @@ Para realizar la instalación de la base de datos se cuenta con las siguientes d
     \item Instalación producción la cual permite actualizar la base de datos que se comunica con todos los clientes del aplicativo.
 \end{itemize}
 
-\subsubsection{Local}
 Esta instalación es la que debe usarse para las diferentes etapas del desarollo de cualquier nueva funcionalidad.
 
 Para realizarse se deben seguir los siguientes procesos:
@@ -14,18 +15,33 @@ Para realizarse se deben seguir los siguientes procesos:
 \begin{enumerate}
 	\item Instalar MySQL Server.
 	\item Crear la base de datos.
-        \begin{lstlisting}[language=sql]
+
+	\begin{figure}
+	\begin{lstlisting}[language=sql]
 CREATE DATABASE chibchaweb;
         \end{lstlisting}
+        \caption{Crear base de datos.}
+        \label{fig:crear-bd}
+        \end{figure}
     \item Crear un nuevo usuario.
-        \begin{lstlisting}[language=sql]
+
+    \begin{figure}
+    \begin{lstlisting}[language=sql]
 CREATE USER 'chibcha'@'localhost' identified by 'chibcha';
         \end{lstlisting}
+        \caption{Crear usuario en base de datos.}
+        \label{fig:crear-usuario}
+        \end{figure}
 	\item Otorgar y actualizar privilegios al usuario.
-        \begin{lstlisting}[language=sql]
+
+	\begin{figure}
+	\begin{lstlisting}[language=sql]
 GRANT ALL PRIVILEGES ON chibcha.* TO 'chibcha'@'localhost';
 FLUSH PRIVILEGES;
         \end{lstlisting}
+        \caption{Dar privilegios al usuario.}
+        \label{fig:dar-privilegios}
+        \end{figure}
 \end{enumerate}
 
 \subsubsection*{Configuración DBeaver}
@@ -52,18 +68,20 @@ Ya instalado el Dbeaver se procede a crear nueva conexión en DBeaver:
 \subsubsection*{Configuración Base de datos}
 \begin{enumerate}
 	\item Clonar el repositorio:
+
+	\begin{figure}
 	\begin{lstlisting}[language=bash]
 git clone https://github.com/Rocnarx/Chibchaweb-Hosting-Platform-Database.git
     \end{lstlisting}
+    \caption{Clonar repo Database.}
+    \label{fig:clonar-db}
+    \end{figure}
      \item Ejecutar en Dbeaver el archivo CreacionDB.sql
      \item Ejecutar en DBeaver el archivo DatosBasicos.sql
 
 \end{enumerate}
-\subsubsection{Producción}
-
 
 \subsection{Backend}
-\subsubsection{Local}
 \subsubsection*{Configurar requirimientos}
 \begin{enumerate}
 	\item Descargar e instalar Python 3.12
@@ -71,60 +89,101 @@ git clone https://github.com/Rocnarx/Chibchaweb-Hosting-Platform-Database.git
 	\item Windows:
 	Descargar de https://www.python.org/downloads/release/python-3120/
 	\item Linux:
-	    \begin{lstlisting}[language=bash]
+
+	\begin{figure}
+	\begin{lstlisting}[language=bash]
 sudo apt update
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update
 sudo apt install python3.12 python3.12-venv python3.12-dev
         \end{lstlisting}
+        \caption{Instalar Python 3.12}
+        \label{fig:install-python}
+        \end{figure}
 	\end{itemize}
 \end{enumerate}
 
 \subsubsection*{Configurar Back}
 \begin{enumerate}
     \item En la carpeta back crear un entorno virtual
-        \begin{lstlisting}[language=bash]
+
+    \begin{figure}
+    \begin{lstlisting}[language=bash]
     python3 -m venv ChibchaBack
        \end{lstlisting}
+       \caption{Crear venv.}
+       \label{fig:crear-venv}
+       \end{figure}
     \item Iniciar el entorno virtual
 
+
+    \begin{figure}
     \begin{lstlisting}[language=bash]
     # -- Windows
     ./ChibchaBack/Scripts/activate
     #Linux
     source ChibchaBack/bin/activate
     \end{lstlisting}
+    \caption{Activar venv}
+    \label{fig:Activar-venv}
+    \end{figure}
 
 	\item Clonar el repositorio:
+
+	\begin{figure}
 	\begin{lstlisting}[language=bash]
     git clone https://github.com/Rocnarx/Chibchaweb-Hosting-Platform-Backend.git
     \end{lstlisting}
+    \caption{Clonar repo backend.}
+    \label{fig:Clonar-repo-backend}
+    \end{figure}
 
     \item Instalar los paquetes requeridos que se encuentran en archivo requeriments.text:
+
+
+    \begin{figure}
     \begin{lstlisting}[language=bash]
     pip install -r Chibchaweb-Hosting-Platform-Backend/requirements.txt
     \end{lstlisting}
+    \caption{Instalar requerimientos back.}
+    \label{fig:install-req}
+    \end{figure}
 
+    \item Crear archivo .env el cual nos permetira conectar el back con los demás componentes
 
-     \item
+    \item Configurar archivo .env con el siguiente texto
+
+    \begin{figure}
+    \begin{lstlisting}[language=bash]
+FERNET_KEY= Solicitar al equipo de desarrollo
+API_KEY= Solicitar al equipo de desarrollo
+DATABASE_URL= mysql+pymysql://root:.. Solicitar al equipo de desarrollo
+OPENAI_API_KEY= Solicitar al equipo de desarrollo
+\end{lstlisting}
+\caption{Editar .env back}
+\label{fig:env-back}
+\end{figure}
 
 \end{enumerate}
-\subsubsection{Producción}
 
 \subsection{Front}
 
-\subsubsection{Local}
 \subsubsection*{Configurar requerimientos}
 \begin{enumerate}
     \item Instalar Node.js y npm
     \begin{itemize}
         \item Windows: Descargar e instalar desde nodejs.org (recomiendo la versión LTS)
         \item Linux:
+
+        \begin{figure}[H]
         \begin{lstlisting}[language=bash]
     sudo apt update
     sudo apt install nodejs npm
         \end{lstlisting}
+        \caption{Instalar node.}
+        \label{fig:Instalar-node}
+        \end{figure}
     \end{itemize}
 \end{enumerate}
 
@@ -132,16 +191,44 @@ sudo apt install python3.12 python3.12-venv python3.12-dev
 
 \begin{enumerate}
     \item Clonar el repositorio en la carpeta destinada a Front
+
+    \begin{figure}
     \begin{lstlisting}[language=bash]
 git clone https://github.com/Rocnarx/Chibchaweb-Hosting-Platform-Frontend.git
     \end{lstlisting}
+    \caption{Clonar repo Front.}
+    \label{fig:Clonar-repo-Front}
+    \end{figure}
      \item Acceder a la carpeta de proyecto e instalar las dependencias
+
+     \begin{figure}[H]
      \begin{lstlisting}[language=bash]
      cd Chibchaweb-Hosting-Platform-Frontend
      npm install
      \end{lstlisting}
+     \caption{Instalar dependencias front.}
+     \label{fig:req-front}
+     \end{figure}
      \item Ejecutar el proyecto en desarrollo
+
+     \begin{figure}[H]
      \begin{lstlisting}[language=bash]
      npm run dev
      \end{lstlisting}
+     \caption{Crear base de datos.}
+     \label{fig:create-db}
+     \end{figure}
+
+     \item Crear archivo .env el cual nos permetira conectar el front con los demás componentes
+
+     \item Configurar archivo .env con el siguiente texto
+
+     \begin{figure}[H]
+     \begin{lstlisting}[language=bash]
+ VITE_API_URL=https://fastapi-app-production-d0f4.up.railway.app
+ VITE_API_KEY=dev-4b872f28-23f9-4a1e-9a60-1cb7f4090abc
+ \end{lstlisting}
+ \caption{Configurar .env front}
+ \label{fig:config-env-front}
+    \end{figure}
 \end{enumerate}

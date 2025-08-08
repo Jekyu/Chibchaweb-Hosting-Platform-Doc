@@ -56,6 +56,11 @@
 \contentsline {subsection}{\numberline {8.2}Casos de Uso: Descripción y Modelo}{20}{subsection.8.2}%
 \contentsline {subsubsection}{\numberline {8.2.1}Resumen De Casos De Uso}{21}{subsubsection.8.2.1}%
 \contentsline {section}{\numberline {9}Descripción y justificación de patrones de diseño adoptados y arquitectura de software definida.}{22}{section.9}%
+\contentsline {subsubsection}{\numberline {9.0.1}Patrón DTO (Data Transfer Object)}{22}{subsubsection.9.0.1}%
+\contentsline {subsubsection}{\numberline {9.0.2}Patrón Active Record}{22}{subsubsection.9.0.2}%
+\contentsline {subsubsection}{\numberline {9.0.3}Patrón Controller}{22}{subsubsection.9.0.3}%
+\contentsline {subsubsection}{\numberline {9.0.4}Encapsulación de lógica en servicios}{22}{subsubsection.9.0.4}%
+\contentsline {subsubsection}{\numberline {9.0.5}Patrón Template Method}{22}{subsubsection.9.0.5}%
 \contentsline {section}{\numberline {10}Puntos de Vista y Modelos Arquitecturales}{23}{section.10}%
 \contentsline {subsection}{\numberline {10.1}Punto de Vista: Descripción del problema.}{23}{subsection.10.1}%
 \contentsline {subsubsection}{\numberline {10.1.1}Punto de Vista: Contexto de la solución}{23}{subsubsection.10.1.1}%
@@ -64,4 +69,4 @@
 \contentsline {subsubsection}{\numberline {10.2.2}Diagramas de Secuencia}{24}{subsubsection.10.2.2}%
 \contentsline {subsection}{\numberline {10.3}Punto de Vista: Desarrollo}{31}{subsection.10.3}%
 \contentsline {subsection}{\numberline {10.4}Punto de Vista: Modelo Relacional de la BBDD}{33}{subsection.10.4}%
-\contentsline {section}{\numberline {11}Firmas de aceptación con fecha (DD/MM/AAAA)}{33}{section.11}%
+\contentsline {section}{\numberline {11}Firmas de aceptación con fecha}{34}{section.11}%

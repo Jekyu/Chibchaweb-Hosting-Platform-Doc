@@ -1,0 +1,18 @@
+En el desarrollo de la plataforma ChibchaWeb se implementaron diversos patrones de diseño que permitieron mantener la claridad en la arquitectura, separación de responsabilidades y facilidad de mantenimiento del código.
+
+\subsubsection{Patrón DTO (Data Transfer Object)}
+Utilizado para la validación y transporte de datos entre el frontend y el backend. Se implementó mediante Pydantic en FastAPI, garantizando que la información recibida cumpla con el formato esperado antes de ser procesada, reduciendo así errores y mejorando la seguridad de entrada de datos.
+
+\subsubsection{Patrón Active Record}
+Aplicado en los modelos de datos mediante SQLAlchemy, permitiendo que cada entidad del sistema (Cliente, Dominio, Paquete, etc.) contenga tanto su representación como las operaciones CRUD asociadas, simplificando el acceso y manipulación de la base de datos.
+
+\subsubsection{Patrón Controller}
+Implementado a través de los routers de FastAPI, donde cada módulo del sistema cuenta con controladores que gestionan las solicitudes HTTP, orquestan la lógica de negocio y retornan las respuestas correspondientes.
+
+\subsubsection{Encapsulación de lógica en servicios}
+Funcionalidades específicas, como el generador de respuestas mediante inteligencia artificial, se desarrollaron como servicios independientes. En este componente se emplearon los patrones Strategy (para permitir distintas formas de generar respuestas según el contexto) y Adapter (para integrar proveedores externos de IA con la lógica interna del sistema).
+
+\subsubsection{Patrón Template Method}
+Los flujos de facturación y la generación de solicitudes XML para registradores externos se estructuraron siguiendo este patrón, definiendo la secuencia general de pasos y permitiendo que subclases concreten detalles específicos, lo que facilita cambios futuros sin modificar la estructura base del proceso.
+
+En conjunto, la aplicación de estos patrones ha permitido desarrollar un sistema modular, escalable y adaptable a los cambios, manteniendo buenas prácticas de ingeniería de software y asegurando la coherencia entre los distintos componentes.

@@ -1,24 +1,25 @@
 Código;Requerimiento Funcional
-RF-22 ; El sistema debe permitir al distribuidor ver el descuento de comisión que recibiría antes de comprar los dominios.
-RF-23 ; El sistema debe permitir el registro de empleados con verificación por correo electrónico.
-RF-24 ; El sistema debe permitir al empleado responder tickets asignados.
-RF-25 ; El sistema debe permitir al administrador aprobar cuentas de empleados postulados.
-RF-26 ; El sistema debe permitir al administrador asignar un nivel de soporte técnico a los empleados.
-RF-27 ; El sistema debe permitir ver al administrador estadísticas de las ventas.
-RF-28 ; El sistema debe permitir al administrador asignar un nivel de soporte técnico a los coordinadores.
-RF-29 ; El sistema debe permitir al administrador ver todos los tickets.
-RF-30 ; El sistema debe permitir al administrador filtrar los tickets por estados y niveles.
-RF-31 ; El sistema debe permitir al administrador modificar precios de dominios por extensión.
-RF-32 ; El sistema debe permitir al administrador modificar comisiones de los distribuidores.
-RF-33 ; El sistema debe permitir al administrador gestionar usuarios (clientes, distribuidores y empleados): buscar, editar y eliminar cuentas.
-RF-34 ; El sistema debe permitir al administrador gestionar paquetes de hosting: crear, editar y eliminar paquetes.
-RF-35 ; El sistema debe permitir al coordinador ver los tickets sin asignar, en proceso y finalizados.
-RF-36 ; El sistema debe permitir al coordinador asignar o escalar tickets a los empleados.
-RF-37 ; El sistema debe permitir iniciar sesión según el tipo de usuario.
-RF-38 ; El sistema debe mostrar los datos del perfil al iniciar sesión.
-RF-39 ; El sistema debe permitir a cualquier usuario editar datos básicos de su perfil.
-RF-40 ; El sistema debe mostrar una notificación que indique transacciones exitosas o fallidas.
-RF-41 ; El sistema debe permitir ingresar una idea de negocio y mostrar opciones de dominios disponibles utilizando inteligencia artificial.
-RF-42 ; El sistema debe permitir al usuario interactuar con un bot para resolver problemas generales.
-RF-43 ; El sistema debe mostrar alternativas de dominios al usuario si el que buscó no está disponible.
-RF-44 ; El sistema debe impedir realizar compras sin tener un método de pago registrado.
+RF-22;El sistema debe permitir al distribuidor ver el descuento de comisión que recibiría antes de comprar los dominios.
+RF-23;El sistema debe permitir el registro de empleados con verificación por correo electrónico.
+RF-24;El sistema debe permitir al empleado responder tickets asignados.
+RF-25;El sistema debe permitir al administrador aprobar cuentas de empleados postulados.
+RF-26;El sistema debe permitir al administrador asignar un nivel de soporte técnico a los empleados.
+RF-27;El sistema debe permitir ver al administrador estadísticas de las ventas.
+RF-28;El sistema debe permitir al administrador asignar un nivel de soporte técnico a los coordinadores.
+RF-29;El sistema debe permitir al administrador ver todos los tickets.
+RF-30;El sistema debe permitir al administrador filtrar los tickets por estados y niveles.
+RF-31;El sistema debe permitir al administrador modificar precios de dominios por extensión.
+RF-32;El sistema debe permitir al administrador modificar comisiones de los distribuidores.
+RF-33;El sistema debe permitir al administrador gestionar usuarios (clientes, distribuidores y empleados): buscar, editar y eliminar cuentas.
+RF-34;El sistema debe permitir al administrador gestionar paquetes de hosting: crear, editar y eliminar paquetes.
+RF-35;El sistema debe permitir al coordinador ver los tickets sin asignar, en proceso y finalizados.
+RF-36;El sistema debe permitir al coordinador asignar o escalar tickets a los empleados.
+RF-37;El sistema debe permitir iniciar sesión según el tipo de usuario.
+RF-38;El sistema debe mostrar los datos del perfil al iniciar sesión.
+RF-39;El sistema debe permitir a cualquier usuario editar datos básicos de su perfil.
+RF-40;El sistema debe mostrar una notificación que indique transacciones exitosas o fallidas.
+RF-41;El sistema debe permitir ingresar una idea de negocio y mostrar opciones de dominios disponibles utilizando inteligencia artificial.
+RF-42;El sistema debe permitir al usuario interactuar con un bot para resolver problemas generales.
+RF-43;El sistema debe mostrar alternativas de dominios al usuario si el que buscó no está disponible.
+RF-44;El sistema debe impedir realizar compras sin tener un método de pago registrado.
+RF-45;El sistema debe permitir al usuario modificar y recuperar su contraseña

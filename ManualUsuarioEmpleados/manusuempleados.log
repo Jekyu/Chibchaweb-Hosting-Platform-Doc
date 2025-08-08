@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  7 AUG 2025 19:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  7 AUG 2025 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1023,7 +1023,13 @@ File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 107.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [2] (./introduccion/introduccion.tex
+ [2]
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 107.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+ [3]
+(./introduccion/introduccion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -1043,623 +1049,654 @@ File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 111.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [3] (./roles/roles.tex)
+ [4] (./roles/roles.tex)
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 115.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [4] (./acceso/acceso.tex
+ [5] (./acceso/acceso.tex
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-<acceso/inicio.png, id=277, 1280.785pt x 651.43375pt>
+<acceso/inicio.png, id=286, 1280.785pt x 651.43375pt>
 File: acceso/inicio.png Graphic file (type png)
 <use acceso/inicio.png>
-Package pdftex.def Info: acceso/inicio.png  used on input line 36.
-(pdftex.def)             Requested size: 455.24411pt x 231.54388pt.
+Package pdftex.def Info: acceso/inicio.png  used on input line 37.
+(pdftex.def)             Requested size: 364.19667pt x 185.23312pt.
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 40.
+Package pdftex.def Info: logomanual.png  used on input line 41.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
-[5]
-<acceso/registro-empleado.png, id=285, 1201.48875pt x 886.31125pt>
+[6]
+<acceso/registro-empleado.png, id=293, 1201.48875pt x 886.31125pt>
 File: acceso/registro-empleado.png Graphic file (type png)
 <use acceso/registro-empleado.png>
-Package pdftex.def Info: acceso/registro-empleado.png  used on input line 45.
-(pdftex.def)             Requested size: 455.24411pt x 335.82805pt.
+Package pdftex.def Info: acceso/registro-empleado.png  used on input line 47.
+(pdftex.def)             Requested size: 364.19667pt x 268.65431pt.
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 49.
+Package pdftex.def Info: logomanual.png  used on input line 56.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [6
+ [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.49 
-      <./acceso/inicio.png>]
-<acceso/navbar-perfil.png, id=291, 1166.3575pt x 90.3375pt>
-File: acceso/navbar-perfil.png Graphic file (type png)
-<use acceso/navbar-perfil.png>
-Package pdftex.def Info: acceso/navbar-perfil.png  used on input line 60.
-(pdftex.def)             Requested size: 455.24411pt x 35.25903pt.
-<acceso/login.png, id=292, 1277.77374pt x 650.43pt>
-File: acceso/login.png Graphic file (type png)
-<use acceso/login.png>
-Package pdftex.def Info: acceso/login.png  used on input line 67.
-(pdftex.def)             Requested size: 455.24411pt x 231.73297pt.
-File: logomanual.png Graphic file (type png)
-<use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 70.
-(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [7
+l.56 \subsection{Inicio de sesión}
+                                   
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.70    	\end{figure}
-                     
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.70    	\end{figure}
-                      <./acceso/registro-empleado.png> <./acceso/navbar-perfil.
-png>]
-<acceso/perfil.png, id=298, 653.44125pt x 273.27094pt>
+l.56 \subsection{Inicio de sesión}
+                                    <./acceso/inicio.png> <./acceso/registro-em
+pleado.png>]
+<acceso/navbar-perfil.png, id=299, 1166.3575pt x 90.3375pt>
+File: acceso/navbar-perfil.png Graphic file (type png)
+<use acceso/navbar-perfil.png>
+Package pdftex.def Info: acceso/navbar-perfil.png  used on input line 62.
+(pdftex.def)             Requested size: 455.24411pt x 35.25903pt.
+<acceso/login.png, id=300, 1277.77374pt x 650.43pt>
+File: acceso/login.png Graphic file (type png)
+<use acceso/login.png>
+Package pdftex.def Info: acceso/login.png  used on input line 69.
+(pdftex.def)             Requested size: 455.24411pt x 231.73297pt.
+<acceso/perfil.png, id=301, 653.44125pt x 273.27094pt>
 File: acceso/perfil.png Graphic file (type png)
 <use acceso/perfil.png>
-Package pdftex.def Info: acceso/perfil.png  used on input line 77.
+Package pdftex.def Info: acceso/perfil.png  used on input line 79.
 (pdftex.def)             Requested size: 455.24411pt x 190.3835pt.
 )
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 119.
+Package pdftex.def Info: logomanual.png  used on input line 118.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
  [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.118 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.119 \newpage
-              
+l.118 
+       <./acceso/navbar-perfil.png> <./acceso/login.png>]
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 119.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+ [9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.119 \newpage
-               <./acceso/login.png> <./acceso/perfil.png (PNG copy)>]
-(./guiamodulo/guiamodulo.tex
-<guiamodulo/tecnico-menu.png, id=304, 548.0475pt x 307.1475pt>
+               <./acceso/perfil.png (PNG copy)>] (./guiamodulo/guiamodulo.tex
+<guiamodulo/tecnico-menu.png, id=312, 721.19438pt x 144.54pt>
 File: guiamodulo/tecnico-menu.png Graphic file (type png)
 <use guiamodulo/tecnico-menu.png>
 Package pdftex.def Info: guiamodulo/tecnico-menu.png  used on input line 10.
-(pdftex.def)             Requested size: 341.43307pt x 191.35744pt.
-<guiamodulo/tecnico-proceso.png, id=305, 616.55344pt x 258.9675pt>
+(pdftex.def)             Requested size: 273.14923pt x 54.7427pt.
+<guiamodulo/tecnico-proceso.png, id=313, 700.86844pt x 192.72pt>
 File: guiamodulo/tecnico-proceso.png Graphic file (type png)
 <use guiamodulo/tecnico-proceso.png>
 Package pdftex.def Info: guiamodulo/tecnico-proceso.png  used on input line 18.
 
-(pdftex.def)             Requested size: 341.43307pt x 143.41252pt.
-<guiamodulo/perfil-coordinador.png, id=306, 912.40875pt x 676.77844pt>
-File: guiamodulo/perfil-coordinador.png Graphic file (type png)
-<use guiamodulo/perfil-coordinador.png>
-Package pdftex.def Info: guiamodulo/perfil-coordinador.png  used on input line 
-29.
-(pdftex.def)             Requested size: 341.43307pt x 253.2543pt.
+(pdftex.def)             Requested size: 273.14923pt x 75.11049pt.
+<guiamodulo/tecnico-detalle.png, id=314, 295.85532pt x 347.04657pt>
+File: guiamodulo/tecnico-detalle.png Graphic file (type png)
+<use guiamodulo/tecnico-detalle.png>
+Package pdftex.def Info: guiamodulo/tecnico-detalle.png  used on input line 26.
+
+(pdftex.def)             Requested size: 136.57462pt x 160.20998pt.
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 32.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [9
+
+[10
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.32 \end{figure}
-                 
+l.32 \end{enumerate}
+                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.32 \end{figure}
-                  <./guiamodulo/tecnico-menu.png (PNG copy)> <./guiamodulo/tecn
-ico-proceso.png (PNG copy)>]
-<guiamodulo/navbar-coo-tickect.png, id=313, 910.90312pt x 243.91125pt>
-File: guiamodulo/navbar-coo-tickect.png Graphic file (type png)
-<use guiamodulo/navbar-coo-tickect.png>
-Package pdftex.def Info: guiamodulo/navbar-coo-tickect.png  used on input line 
-48.
-(pdftex.def)             Requested size: 364.19667pt x 97.52182pt.
-<guiamodulo/coordinador-tickets.png, id=314, 730.98094pt x 292.84406pt>
-File: guiamodulo/coordinador-tickets.png Graphic file (type png)
-<use guiamodulo/coordinador-tickets.png>
-Package pdftex.def Info: guiamodulo/coordinador-tickets.png  used on input line
- 55.
-(pdftex.def)             Requested size: 364.19667pt x 145.90332pt.
-File: logomanual.png Graphic file (type png)
-<use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 58.
-(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [10
+l.32 \end{enumerate}
+                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.58         \end{figure}
-                         
+l.32 \end{enumerate}
+                     <./guiamodulo/tecnico-menu.png (PNG copy)> <./guiamodulo/t
+ecnico-proceso.png (PNG copy)> <./guiamodulo/tecnico-detalle.png (PNG copy)>]
+<guiamodulo/perfil-coordinador.png, id=323, 912.40875pt x 676.77844pt>
+File: guiamodulo/perfil-coordinador.png Graphic file (type png)
+<use guiamodulo/perfil-coordinador.png>
+Package pdftex.def Info: guiamodulo/perfil-coordinador.png  used on input line 
+39.
+(pdftex.def)             Requested size: 341.43307pt x 253.2543pt.
+<guiamodulo/navbar-coo-tickect.png, id=324, 910.90312pt x 243.91125pt>
+File: guiamodulo/navbar-coo-tickect.png Graphic file (type png)
+<use guiamodulo/navbar-coo-tickect.png>
+Package pdftex.def Info: guiamodulo/navbar-coo-tickect.png  used on input line 
+58.
+(pdftex.def)             Requested size: 364.19667pt x 97.52182pt.
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 62.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+
+[11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.58         \end{figure}
-                          <./guiamodulo/perfil-coordinador.png (PNG copy)> <./g
-uiamodulo/navbar-coo-tickect.png (PNG copy)>]
-<guiamodulo/navbar-coo-asignar.png, id=323, 899.61093pt x 158.84344pt>
+l.62     \item A
+                llí podrá observar 3 categorias de tickets según el estad...
+ <./guiamodulo/perfil-coordinador.png (PNG copy)>]
+<guiamodulo/coordinador-tickets.png, id=334, 730.98094pt x 292.84406pt>
+File: guiamodulo/coordinador-tickets.png Graphic file (type png)
+<use guiamodulo/coordinador-tickets.png>
+Package pdftex.def Info: guiamodulo/coordinador-tickets.png  used on input line
+ 65.
+(pdftex.def)             Requested size: 364.19667pt x 145.90332pt.
+<guiamodulo/navbar-coo-asignar.png, id=335, 899.61093pt x 158.84344pt>
 File: guiamodulo/navbar-coo-asignar.png Graphic file (type png)
 <use guiamodulo/navbar-coo-asignar.png>
 Package pdftex.def Info: guiamodulo/navbar-coo-asignar.png  used on input line 
-66.
+76.
 (pdftex.def)             Requested size: 364.19667pt x 64.30457pt.
-<guiamodulo/coordinador-asignar.png, id=324, 796.47563pt x 224.33812pt>
+<guiamodulo/coordinador-asignar.png, id=336, 796.47563pt x 224.33812pt>
 File: guiamodulo/coordinador-asignar.png Graphic file (type png)
 <use guiamodulo/coordinador-asignar.png>
 Package pdftex.def Info: guiamodulo/coordinador-asignar.png  used on input line
- 73.
+ 83.
 (pdftex.def)             Requested size: 364.19667pt x 102.58061pt.
-<guiamodulo/menu-admin.png, id=325, 702.37407pt x 352.31625pt>
-File: guiamodulo/menu-admin.png Graphic file (type png)
-<use guiamodulo/menu-admin.png>
-Package pdftex.def Info: guiamodulo/menu-admin.png  used on input line 84.
-(pdftex.def)             Requested size: 455.24411pt x 228.36311pt.
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 88.
+Package pdftex.def Info: logomanual.png  used on input line 87.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [11
+ [12
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.88 
-     
+l.87 \end{enumerate}
+                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.88 
-     
+l.87 \end{enumerate}
+                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.88 
-      <./guiamodulo/coordinador-tickets.png (PNG copy)> <./guiamodulo/navbar-co
-o-asignar.png (PNG copy)> <./guiamodulo/coordinador-asignar.png (PNG copy)>]
-<guiamodulo/menu-admin-precios.png, id=335, 197.98969pt x 59.47218pt>
-File: guiamodulo/menu-admin-precios.png Graphic file (type png)
-<use guiamodulo/menu-admin-precios.png>
-Package pdftex.def Info: guiamodulo/menu-admin-precios.png  used on input line 
-107.
-(pdftex.def)             Requested size: 136.57462pt x 41.02495pt.
-<guiamodulo/mod-precios.png, id=336, 618.81187pt x 373.395pt>
-File: guiamodulo/mod-precios.png Graphic file (type png)
-<use guiamodulo/mod-precios.png>
-Package pdftex.def Info: guiamodulo/mod-precios.png  used on input line 115.
-(pdftex.def)             Requested size: 318.66948pt x 192.29202pt.
+l.87 \end{enumerate}
+                     <./guiamodulo/navbar-coo-tickect.png (PNG copy)> <./guiamo
+dulo/coordinador-tickets.png (PNG copy)> <./guiamodulo/navbar-coo-asignar.png (
+PNG copy)>]
+<guiamodulo/menu-admin.png, id=344, 702.37407pt x 352.31625pt>
+File: guiamodulo/menu-admin.png Graphic file (type png)
+<use guiamodulo/menu-admin.png>
+Package pdftex.def Info: guiamodulo/menu-admin.png  used on input line 94.
+(pdftex.def)             Requested size: 455.24411pt x 228.36311pt.
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 119.
+Package pdftex.def Info: logomanual.png  used on input line 108.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
-
-[12
+ [13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.119 
-      
+l.108 \end{itemize}
+                   
 pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.119 
-       <./guiamodulo/menu-admin.png (PNG copy)> <./guiamodulo/menu-admin-precio
-s.png (PNG copy)>]
-<guiamodulo/mod-precios-guardar.png, id=342, 206.27063pt x 99.37125pt>
+l.108 \end{itemize}
+                    <./guiamodulo/coordinador-asignar.png (PNG copy)> <./guiamo
+dulo/menu-admin.png (PNG copy)>]
+<guiamodulo/menu-admin-precios.png, id=350, 197.98969pt x 59.47218pt>
+File: guiamodulo/menu-admin-precios.png Graphic file (type png)
+<use guiamodulo/menu-admin-precios.png>
+Package pdftex.def Info: guiamodulo/menu-admin-precios.png  used on input line 
+117.
+(pdftex.def)             Requested size: 136.57462pt x 41.02495pt.
+<guiamodulo/mod-precios.png, id=351, 618.81187pt x 373.395pt>
+File: guiamodulo/mod-precios.png Graphic file (type png)
+<use guiamodulo/mod-precios.png>
+Package pdftex.def Info: guiamodulo/mod-precios.png  used on input line 125.
+(pdftex.def)             Requested size: 318.66948pt x 192.29202pt.
+<guiamodulo/mod-precios-guardar.png, id=352, 206.27063pt x 99.37125pt>
 File: guiamodulo/mod-precios-guardar.png Graphic file (type png)
 <use guiamodulo/mod-precios-guardar.png>
 Package pdftex.def Info: guiamodulo/mod-precios-guardar.png  used on input line
- 123.
+ 133.
 (pdftex.def)             Requested size: 182.09486pt x 87.72595pt.
-<guiamodulo/mod-precios-aviso.png, id=343, 442.65375pt x 122.70844pt>
+<guiamodulo/mod-precios-aviso.png, id=353, 442.65375pt x 122.70844pt>
 File: guiamodulo/mod-precios-aviso.png Graphic file (type png)
 <use guiamodulo/mod-precios-aviso.png>
 Package pdftex.def Info: guiamodulo/mod-precios-aviso.png  used on input line 1
-31.
+41.
 (pdftex.def)             Requested size: 341.43307pt x 94.6543pt.
-<guiamodulo/menu-admin-usuarios.png, id=345, 232.61906pt x 63.23625pt>
-File: guiamodulo/menu-admin-usuarios.png Graphic file (type png)
-<use guiamodulo/menu-admin-usuarios.png>
-Package pdftex.def Info: guiamodulo/menu-admin-usuarios.png  used on input line
- 144.
-(pdftex.def)             Requested size: 136.57462pt x 37.12766pt.
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 148.
+Package pdftex.def Info: logomanual.png  used on input line 145.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [13
+ [14
 pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.148 
-      
+l.145 \end{enumerate}
+                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.148 
-      
+l.145 \end{enumerate}
+                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.148 
-       <./guiamodulo/mod-precios.png (PNG copy)> <./guiamodulo/mod-precios-guar
-dar.png (PNG copy)> <./guiamodulo/mod-precios-aviso.png (PNG copy)>]
-<guiamodulo/admin-usuarios-registrados.png, id=354, 717.43031pt x 151.3153pt>
+l.145 \end{enumerate}
+                      <./guiamodulo/menu-admin-precios.png (PNG copy)> <./guiam
+odulo/mod-precios.png (PNG copy)> <./guiamodulo/mod-precios-guardar.png (PNG co
+py)>]
+<guiamodulo/menu-admin-usuarios.png, id=362, 232.61906pt x 63.23625pt>
+File: guiamodulo/menu-admin-usuarios.png Graphic file (type png)
+<use guiamodulo/menu-admin-usuarios.png>
+Package pdftex.def Info: guiamodulo/menu-admin-usuarios.png  used on input line
+ 154.
+(pdftex.def)             Requested size: 136.57462pt x 37.12766pt.
+<guiamodulo/admin-usuarios-registrados.png, id=363, 717.43031pt x 151.3153pt>
 File: guiamodulo/admin-usuarios-registrados.png Graphic file (type png)
 <use guiamodulo/admin-usuarios-registrados.png>
 Package pdftex.def Info: guiamodulo/admin-usuarios-registrados.png  used on inp
-ut line 152.
+ut line 162.
 (pdftex.def)             Requested size: 364.19667pt x 76.81421pt.
-<guiamodulo/admin-usuario-detalle.png, id=355, 651.93562pt x 389.95688pt>
+<guiamodulo/admin-usuario-detalle.png, id=364, 651.93562pt x 389.95688pt>
 File: guiamodulo/admin-usuario-detalle.png Graphic file (type png)
 <use guiamodulo/admin-usuario-detalle.png>
 Package pdftex.def Info: guiamodulo/admin-usuario-detalle.png  used on input li
-ne 160.
+ne 170.
 (pdftex.def)             Requested size: 341.43307pt x 204.23654pt.
-<guiamodulo/menu-admin-postulados.png, id=356, 178.41656pt x 51.94406pt>
-File: guiamodulo/menu-admin-postulados.png Graphic file (type png)
-<use guiamodulo/menu-admin-postulados.png>
-Package pdftex.def Info: guiamodulo/menu-admin-postulados.png  used on input li
-ne 171.
-(pdftex.def)             Requested size: 136.57462pt x 39.764pt.
-<guiamodulo/admin-postulados.png, id=357, 760.34062pt x 134.00063pt>
-File: guiamodulo/admin-postulados.png Graphic file (type png)
-<use guiamodulo/admin-postulados.png>
-Package pdftex.def Info: guiamodulo/admin-postulados.png  used on input line 17
-9.
-(pdftex.def)             Requested size: 364.19667pt x 64.18665pt.
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 182.
+Package pdftex.def Info: logomanual.png  used on input line 174.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [14
+ [15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.182     \end{figure}
-                      
+l.174 \end{enumerate}
+                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.182     \end{figure}
-                      
+l.174 \end{enumerate}
+                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.182     \end{figure}
-                      
+l.174 \end{enumerate}
+                      <./guiamodulo/mod-precios-aviso.png (PNG copy)> <./guiamo
+dulo/menu-admin-usuarios.png (PNG copy)> <./guiamodulo/admin-usuarios-registrad
+os.png (PNG copy)>]
+<guiamodulo/menu-admin-postulados.png, id=373, 178.41656pt x 51.94406pt>
+File: guiamodulo/menu-admin-postulados.png Graphic file (type png)
+<use guiamodulo/menu-admin-postulados.png>
+Package pdftex.def Info: guiamodulo/menu-admin-postulados.png  used on input li
+ne 181.
+(pdftex.def)             Requested size: 136.57462pt x 39.764pt.
+<guiamodulo/admin-postulados.png, id=374, 760.34062pt x 134.00063pt>
+File: guiamodulo/admin-postulados.png Graphic file (type png)
+<use guiamodulo/admin-postulados.png>
+Package pdftex.def Info: guiamodulo/admin-postulados.png  used on input line 18
+9.
+(pdftex.def)             Requested size: 364.19667pt x 64.18665pt.
+<guiamodulo/admin-postulados-detalle.png, id=375, 414.04688pt x 301.125pt>
+File: guiamodulo/admin-postulados-detalle.png Graphic file (type png)
+<use guiamodulo/admin-postulados-detalle.png>
+Package pdftex.def Info: guiamodulo/admin-postulados-detalle.png  used on input
+ line 197.
+(pdftex.def)             Requested size: 273.14923pt x 198.6604pt.
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 201.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+ [16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.182     \end{figure}
-                       <./guiamodulo/menu-admin-usuarios.png (PNG copy)> <./gui
-amodulo/admin-usuarios-registrados.png (PNG copy)> <./guiamodulo/admin-usuario-
-detalle.png (PNG copy)> <./guiamodulo/menu-admin-postulados.png (PNG copy)>]
-<guiamodulo/admin-postulados-detalle.png, id=365, 414.04688pt x 301.125pt>
-File: guiamodulo/admin-postulados-detalle.png Graphic file (type png)
-<use guiamodulo/admin-postulados-detalle.png>
-Package pdftex.def Info: guiamodulo/admin-postulados-detalle.png  used on input
- line 187.
-(pdftex.def)             Requested size: 273.14923pt x 198.6604pt.
-<guiamodulo/menu-admin-empleados.png, id=366, 231.11343pt x 60.225pt>
-File: guiamodulo/menu-admin-empleados.png Graphic file (type png)
-<use guiamodulo/menu-admin-empleados.png>
-Package pdftex.def Info: guiamodulo/menu-admin-empleados.png  used on input lin
-e 200.
-(pdftex.def)             Requested size: 136.57462pt x 35.5894pt.
-<guiamodulo/gestion-tecnicos.png, id=367, 714.41907pt x 326.72063pt>
-File: guiamodulo/gestion-tecnicos.png Graphic file (type png)
-<use guiamodulo/gestion-tecnicos.png>
-Package pdftex.def Info: guiamodulo/gestion-tecnicos.png  used on input line 20
-9.
-(pdftex.def)             Requested size: 318.66948pt x 145.7367pt.
-File: logomanual.png Graphic file (type png)
-<use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 213.
-(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
-
-[15
+l.201 \end{enumerate}
+                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.213 
-      
+l.201 \end{enumerate}
+                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.23}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.213 
-      
+l.201 \end{enumerate}
+                      <./guiamodulo/admin-usuario-detalle.png (PNG copy)> <./gu
+iamodulo/menu-admin-postulados.png (PNG copy)> <./guiamodulo/admin-postulados.p
+ng (PNG copy)>]
+<guiamodulo/menu-admin-empleados.png, id=383, 231.11343pt x 60.225pt>
+File: guiamodulo/menu-admin-empleados.png Graphic file (type png)
+<use guiamodulo/menu-admin-empleados.png>
+Package pdftex.def Info: guiamodulo/menu-admin-empleados.png  used on input lin
+e 210.
+(pdftex.def)             Requested size: 136.57462pt x 35.5894pt.
+<guiamodulo/gestion-tecnicos.png, id=384, 714.41907pt x 326.72063pt>
+File: guiamodulo/gestion-tecnicos.png Graphic file (type png)
+<use guiamodulo/gestion-tecnicos.png>
+Package pdftex.def Info: guiamodulo/gestion-tecnicos.png  used on input line 21
+9.
+(pdftex.def)             Requested size: 318.66948pt x 145.7367pt.
+<guiamodulo/gestion-tecnicos-menu.png, id=385, 703.12688pt x 225.09094pt>
+File: guiamodulo/gestion-tecnicos-menu.png Graphic file (type png)
+<use guiamodulo/gestion-tecnicos-menu.png>
+Package pdftex.def Info: guiamodulo/gestion-tecnicos-menu.png  used on input li
+ne 228.
+(pdftex.def)             Requested size: 318.66948pt x 102.01468pt.
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 232.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+ [17
 pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.213 
-       <./guiamodulo/admin-postulados.png (PNG copy)> <./guiamodulo/admin-postu
-lados-detalle.png (PNG copy)> <./guiamodulo/menu-admin-empleados.png (PNG copy)
->]
-<guiamodulo/gestion-tecnicos-menu.png, id=376, 703.12688pt x 225.09094pt>
-File: guiamodulo/gestion-tecnicos-menu.png Graphic file (type png)
-<use guiamodulo/gestion-tecnicos-menu.png>
-Package pdftex.def Info: guiamodulo/gestion-tecnicos-menu.png  used on input li
-ne 218.
-(pdftex.def)             Requested size: 318.66948pt x 102.01468pt.
-<guiamodulo/gestion-tecnicos-aviso.png, id=377, 715.92468pt x 95.6072pt>
-File: guiamodulo/gestion-tecnicos-aviso.png Graphic file (type png)
-<use guiamodulo/gestion-tecnicos-aviso.png>
-Package pdftex.def Info: guiamodulo/gestion-tecnicos-aviso.png  used on input l
-ine 227.
-(pdftex.def)             Requested size: 318.66948pt x 42.556pt.
-<guiamodulo/menu-admin-coordinadores.png, id=378, 149.8097pt x 43.66313pt>
-File: guiamodulo/menu-admin-coordinadores.png Graphic file (type png)
-<use guiamodulo/menu-admin-coordinadores.png>
-Package pdftex.def Info: guiamodulo/menu-admin-coordinadores.png  used on input
- line 241.
-(pdftex.def)             Requested size: 136.57462pt x 39.80878pt.
-<guiamodulo/gestion-coordinadores.png, id=379, 763.35187pt x 228.855pt>
-File: guiamodulo/gestion-coordinadores.png Graphic file (type png)
-<use guiamodulo/gestion-coordinadores.png>
-Package pdftex.def Info: guiamodulo/gestion-coordinadores.png  used on input li
-ne 250.
-(pdftex.def)             Requested size: 318.66948pt x 95.53876pt.
-File: logomanual.png Graphic file (type png)
-<use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 254.
-(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [16
+l.232 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.25}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.254 
+l.232 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.254 
-      
+l.232 
+       <./guiamodulo/admin-postulados-detalle.png (PNG copy)> <./guiamodulo/men
+u-admin-empleados.png (PNG copy)> <./guiamodulo/gestion-tecnicos.png (PNG copy)
+>]
+<guiamodulo/gestion-tecnicos-aviso.png, id=394, 715.92468pt x 95.6072pt>
+File: guiamodulo/gestion-tecnicos-aviso.png Graphic file (type png)
+<use guiamodulo/gestion-tecnicos-aviso.png>
+Package pdftex.def Info: guiamodulo/gestion-tecnicos-aviso.png  used on input l
+ine 237.
+(pdftex.def)             Requested size: 318.66948pt x 42.556pt.
+<guiamodulo/menu-admin-coordinadores.png, id=395, 149.8097pt x 43.66313pt>
+File: guiamodulo/menu-admin-coordinadores.png Graphic file (type png)
+<use guiamodulo/menu-admin-coordinadores.png>
+Package pdftex.def Info: guiamodulo/menu-admin-coordinadores.png  used on input
+ line 251.
+(pdftex.def)             Requested size: 136.57462pt x 39.80878pt.
+<guiamodulo/gestion-coordinadores.png, id=396, 763.35187pt x 228.855pt>
+File: guiamodulo/gestion-coordinadores.png Graphic file (type png)
+<use guiamodulo/gestion-coordinadores.png>
+Package pdftex.def Info: guiamodulo/gestion-coordinadores.png  used on input li
+ne 260.
+(pdftex.def)             Requested size: 318.66948pt x 95.53876pt.
+File: guiamodulo/gestion-tecnicos-aviso.png Graphic file (type png)
+<use guiamodulo/gestion-tecnicos-aviso.png>
+Package pdftex.def Info: guiamodulo/gestion-tecnicos-aviso.png  used on input l
+ine 269.
+(pdftex.def)             Requested size: 318.66948pt x 42.556pt.
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 273.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+ [18
 pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.254 
+l.273 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.254 
-       <./guiamodulo/gestion-tecnicos.png (PNG copy)> <./guiamodulo/gestion-tec
-nicos-menu.png (PNG copy)> <./guiamodulo/gestion-tecnicos-aviso.png (PNG copy)>
- <./guiamodulo/menu-admin-coordinadores.png (PNG copy)>]
-File: guiamodulo/gestion-tecnicos-aviso.png Graphic file (type png)
-<use guiamodulo/gestion-tecnicos-aviso.png>
-Package pdftex.def Info: guiamodulo/gestion-tecnicos-aviso.png  used on input l
-ine 259.
-(pdftex.def)             Requested size: 318.66948pt x 42.556pt.
-<guiamodulo/menu-admin-distribuidores.png, id=387, 231.11343pt x 71.51718pt>
-File: guiamodulo/menu-admin-distribuidores.png Graphic file (type png)
-<use guiamodulo/menu-admin-distribuidores.png>
-Package pdftex.def Info: guiamodulo/menu-admin-distribuidores.png  used on inpu
-t line 273.
-(pdftex.def)             Requested size: 136.57462pt x 42.26242pt.
-<guiamodulo/gestion-distribuidores.png, id=388, 774.64406pt x 117.43875pt>
-File: guiamodulo/gestion-distribuidores.png Graphic file (type png)
-<use guiamodulo/gestion-distribuidores.png>
-Package pdftex.def Info: guiamodulo/gestion-distribuidores.png  used on input l
-ine 281.
-(pdftex.def)             Requested size: 318.66948pt x 48.31146pt.
-<guiamodulo/gestion-distribuidores-detalle.png, id=389, 565.36218pt x 334.24875
-pt>
-File: guiamodulo/gestion-distribuidores-detalle.png Graphic file (type png)
-<use guiamodulo/gestion-distribuidores-detalle.png>
-Package pdftex.def Info: guiamodulo/gestion-distribuidores-detalle.png  used on
- input line 289.
-(pdftex.def)             Requested size: 318.66948pt x 188.40207pt.
-File: logomanual.png Graphic file (type png)
-<use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 293.
-(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [17
+l.273 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.29}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.293 
+l.273 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.30}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.293 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.293 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.293 
-       <./guiamodulo/gestion-coordinadores.png (PNG copy)> <./guiamodulo/menu-a
-dmin-distribuidores.png (PNG copy)> <./guiamodulo/gestion-distribuidores.png (P
-NG copy)>]
-<guiamodulo/menu-admin-hosting.png, id=400, 219.82124pt x 68.50594pt>
+l.273 
+       <./guiamodulo/gestion-tecnicos-menu.png (PNG copy)> <./guiamodulo/gestio
+n-tecnicos-aviso.png (PNG copy)> <./guiamodulo/menu-admin-coordinadores.png (PN
+G copy)> <./guiamodulo/gestion-coordinadores.png (PNG copy)>]
+<guiamodulo/menu-admin-distribuidores.png, id=405, 231.11343pt x 71.51718pt>
+File: guiamodulo/menu-admin-distribuidores.png Graphic file (type png)
+<use guiamodulo/menu-admin-distribuidores.png>
+Package pdftex.def Info: guiamodulo/menu-admin-distribuidores.png  used on inpu
+t line 283.
+(pdftex.def)             Requested size: 136.57462pt x 42.26242pt.
+<guiamodulo/gestion-distribuidores.png, id=406, 774.64406pt x 117.43875pt>
+File: guiamodulo/gestion-distribuidores.png Graphic file (type png)
+<use guiamodulo/gestion-distribuidores.png>
+Package pdftex.def Info: guiamodulo/gestion-distribuidores.png  used on input l
+ine 291.
+(pdftex.def)             Requested size: 318.66948pt x 48.31146pt.
+<guiamodulo/gestion-distribuidores-detalle.png, id=407, 565.36218pt x 334.24875
+pt>
+File: guiamodulo/gestion-distribuidores-detalle.png Graphic file (type png)
+<use guiamodulo/gestion-distribuidores-detalle.png>
+Package pdftex.def Info: guiamodulo/gestion-distribuidores-detalle.png  used on
+ input line 299.
+(pdftex.def)             Requested size: 318.66948pt x 188.40207pt.
+<guiamodulo/menu-admin-hosting.png, id=408, 219.82124pt x 68.50594pt>
 File: guiamodulo/menu-admin-hosting.png Graphic file (type png)
 <use guiamodulo/menu-admin-hosting.png>
 Package pdftex.def Info: guiamodulo/menu-admin-hosting.png  used on input line 
-305.
+315.
 (pdftex.def)             Requested size: 136.57462pt x 42.56418pt.
-<guiamodulo/gestion-hosting.png, id=401, 502.87875pt x 367.3725pt>
-File: guiamodulo/gestion-hosting.png Graphic file (type png)
-<use guiamodulo/gestion-hosting.png>
-Package pdftex.def Info: guiamodulo/gestion-hosting.png  used on input line 314
-.
-(pdftex.def)             Requested size: 318.66948pt x 232.79684pt.
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 318.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [18
+ [19
+pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.318     \end{figure}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.318     \end{figure}
+                      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.33}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.318 
-      
+l.318     \end{figure}
+                      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.34}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.318 
-       <./guiamodulo/gestion-distribuidores-detalle.png (PNG copy)> <./guiamodu
-lo/menu-admin-hosting.png (PNG copy)>]
-<guiamodulo/gestion-hosting-guardar.png, id=407, 477.28313pt x 348.55219pt>
+l.318     \end{figure}
+                       <./guiamodulo/menu-admin-distribuidores.png (PNG copy)> 
+<./guiamodulo/gestion-distribuidores.png (PNG copy)> <./guiamodulo/gestion-dist
+ribuidores-detalle.png (PNG copy)>]
+<guiamodulo/gestion-hosting.png, id=416, 502.87875pt x 367.3725pt>
+File: guiamodulo/gestion-hosting.png Graphic file (type png)
+<use guiamodulo/gestion-hosting.png>
+Package pdftex.def Info: guiamodulo/gestion-hosting.png  used on input line 324
+.
+(pdftex.def)             Requested size: 318.66948pt x 232.79684pt.
+<guiamodulo/gestion-hosting-guardar.png, id=417, 477.28313pt x 348.55219pt>
 File: guiamodulo/gestion-hosting-guardar.png Graphic file (type png)
 <use guiamodulo/gestion-hosting-guardar.png>
 Package pdftex.def Info: guiamodulo/gestion-hosting-guardar.png  used on input 
-line 323.
+line 333.
 (pdftex.def)             Requested size: 318.66948pt x 232.71501pt.
-<guiamodulo/gestion-hosting-aviso.png, id=408, 359.09157pt x 124.96687pt>
-File: guiamodulo/gestion-hosting-aviso.png Graphic file (type png)
-<use guiamodulo/gestion-hosting-aviso.png>
-Package pdftex.def Info: guiamodulo/gestion-hosting-aviso.png  used on input li
-ne 332.
-(pdftex.def)             Requested size: 182.09486pt x 63.37186pt.
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 336.
+Package pdftex.def Info: logomanual.png  used on input line 337.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [19
+ [20
 pdfTeX warning (ext4): destination with the same identifier (name{figure.35}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.336 
+l.337 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.36}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.336 
-       <./guiamodulo/gestion-hosting.png (PNG copy)> <./guiamodulo/gestion-host
-ing-guardar.png (PNG copy)>]
-<guiamodulo/gestion-hosting-nuevo.png, id=415, 417.05812pt x 313.9228pt>
+l.337 
+       <./guiamodulo/menu-admin-hosting.png (PNG copy)> <./guiamodulo/gestion-h
+osting.png (PNG copy)>]
+<guiamodulo/gestion-hosting-aviso.png, id=425, 359.09157pt x 124.96687pt>
+File: guiamodulo/gestion-hosting-aviso.png Graphic file (type png)
+<use guiamodulo/gestion-hosting-aviso.png>
+Package pdftex.def Info: guiamodulo/gestion-hosting-aviso.png  used on input li
+ne 342.
+(pdftex.def)             Requested size: 182.09486pt x 63.37186pt.
+<guiamodulo/gestion-hosting-nuevo.png, id=426, 417.05812pt x 313.9228pt>
 File: guiamodulo/gestion-hosting-nuevo.png Graphic file (type png)
 <use guiamodulo/gestion-hosting-nuevo.png>
 Package pdftex.def Info: guiamodulo/gestion-hosting-nuevo.png  used on input li
-ne 344.
+ne 354.
 (pdftex.def)             Requested size: 318.66948pt x 239.87712pt.
-<guiamodulo/gestion-hosting-nuevo-campos.png, id=416, 145.29282pt x 359.84438pt
->
-File: guiamodulo/gestion-hosting-nuevo-campos.png Graphic file (type png)
-<use guiamodulo/gestion-hosting-nuevo-campos.png>
-Package pdftex.def Info: guiamodulo/gestion-hosting-nuevo-campos.png  used on i
-nput line 352.
-(pdftex.def)             Requested size: 91.04742pt x 225.50067pt.
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 356.
+Package pdftex.def Info: logomanual.png  used on input line 358.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [20
+ [21
 pdfTeX warning (ext4): destination with the same identifier (name{figure.37}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.356 
+l.358 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.38}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.356 
-       <./guiamodulo/gestion-hosting-aviso.png (PNG copy)> <./guiamodulo/gestio
-n-hosting-nuevo.png (PNG copy)>]
+l.358 
+       <./guiamodulo/gestion-hosting-guardar.png (PNG copy)> <./guiamodulo/gest
+ion-hosting-aviso.png (PNG copy)>]
+<guiamodulo/gestion-hosting-nuevo-campos.png, id=433, 145.29282pt x 359.84438pt
+>
+File: guiamodulo/gestion-hosting-nuevo-campos.png Graphic file (type png)
+<use guiamodulo/gestion-hosting-nuevo-campos.png>
+Package pdftex.def Info: guiamodulo/gestion-hosting-nuevo-campos.png  used on i
+nput line 362.
+(pdftex.def)             Requested size: 91.04742pt x 225.50067pt.
 File: guiamodulo/menu-admin-hosting.png Graphic file (type png)
 <use guiamodulo/menu-admin-hosting.png>
 Package pdftex.def Info: guiamodulo/menu-admin-hosting.png  used on input line 
-367.
+377.
 (pdftex.def)             Requested size: 136.57462pt x 42.56418pt.
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 380.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+ [22
+pdfTeX warning (ext4): destination with the same identifier (name{figure.39}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.380 \end{figure}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{figure.40}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.380 \end{figure}
+                   <./guiamodulo/gestion-hosting-nuevo.png (PNG copy)> <./guiam
+odulo/gestion-hosting-nuevo-campos.png (PNG copy)>]
+<guiamodulo/perfil-info.png, id=440, 563.85657pt x 475.02469pt>
+File: guiamodulo/perfil-info.png Graphic file (type png)
+<use guiamodulo/perfil-info.png>
+Package pdftex.def Info: guiamodulo/perfil-info.png  used on input line 385.
+(pdftex.def)             Requested size: 273.14923pt x 230.1185pt.
 )
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 123.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [21
-pdfTeX warning (ext4): destination with the same identifier (name{figure.39}) h
+ [23
+pdfTeX warning (ext4): destination with the same identifier (name{figure.41}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.123 \newpage
               
-pdfTeX warning (ext4): destination with the same identifier (name{figure.40}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.42}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.123 \newpage
-               <./guiamodulo/gestion-hosting-nuevo-campos.png (PNG copy)>]
+               <./guiamodulo/perfil-info.png>]
 (./recomendaciones/recomendaciones.tex)
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 127.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [22] (./glosario/glosario.tex
+ [24] (./glosario/glosario.tex
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 38.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [23]
+ [25]
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 76.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
 
-[24]
+[26]
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 108.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [25])
+ [27])
 No file manusuempleados.bbl.
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 134.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
-[26] 
+[28] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./manusuempleados.aux)
  ***********
@@ -1674,10 +1711,10 @@ Package rerunfilecheck Info: File `manusuempleados.out' has not changed.
 (rerunfilecheck)             Checksum: 3E1686F1358055D4B880A80BA1038290;4471.
  ) 
 Here is how much of TeX's memory you used:
- 36920 strings out of 476106
- 857777 string characters out of 5793934
- 1941975 words of memory out of 5000000
- 58217 multiletter control sequences out of 15000+600000
+ 36943 strings out of 476106
+ 858356 string characters out of 5793934
+ 1942975 words of memory out of 5000000
+ 58233 multiletter control sequences out of 15000+600000
  567944 words of font info for 74 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  94i,16n,94p,730b,667s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1686,10 +1723,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on manusuempleados.pdf (28 pages, 4911732 bytes).
+Output written on manusuempleados.pdf (30 pages, 5026834 bytes).
 PDF statistics:
- 506 PDF objects out of 1000 (max. 8388607)
- 419 compressed objects within 5 object streams
- 144 named destinations out of 1000 (max. 500000)
- 450 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 526 PDF objects out of 1000 (max. 8388607)
+ 435 compressed objects within 5 object streams
+ 151 named destinations out of 1000 (max. 500000)
+ 460 words of extra memory for PDF output out of 10000 (max. 10000000)
 

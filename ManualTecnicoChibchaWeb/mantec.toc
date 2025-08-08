@@ -1,36 +1,31 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
-\contentsline {section}{\numberline {2}Alcance del manual}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Frontend}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Backend}{3}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Base de Datos}{3}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Control de Versiones y Colaboración}{3}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Servicios Externos}{3}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Requisitos}{4}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Requisitos del Hardware}{4}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Requisitos de Software}{4}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Instalación}{6}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Base de datos}{6}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Local}{6}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Producción}{7}{subsubsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.2}Backend}{7}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Local}{7}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Producción}{8}{subsubsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.3}Front}{8}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Local}{8}{subsubsection.4.3.1}%
-\contentsline {section}{\numberline {5}Descripción de los módulos}{10}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Backend}{10}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Módulo de Gestión de Carrito}{10}{subsubsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Módulo de Gestión de Dominios}{10}{subsubsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.3}Módulo de Cuentas y Autenticación}{11}{subsubsection.5.1.3}%
-\contentsline {subsubsection}{\numberline {5.1.4}Módulo de Planes y Hosting}{12}{subsubsection.5.1.4}%
-\contentsline {subsubsection}{\numberline {5.1.5}Módulo de Soporte y Ticket}{12}{subsubsection.5.1.5}%
-\contentsline {subsection}{\numberline {5.2}Middleware de Automatización (OpenAI)}{12}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Base de datos}{13}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Procedimientos de uso}{14}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Acceso al sistema}{14}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Registro de nuevos usuarios}{14}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Gestión de dominio y facturación}{14}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}}{15}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Verificación de autenticación y permisos}{15}{subsection.6.5}%
-\contentsline {section}{\numberline {7}Glosario y anexos}{16}{section.7}%
+\contentsline {section}{\numberline {1}Introducción}{4}{section.1}%
+\contentsline {section}{\numberline {2}Alcance del manual}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Frontend}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Backend}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Base de Datos}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Control de Versiones y Colaboración}{5}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Servicios Externos}{5}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Requisitos}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Requisitos del Hardware}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Requisitos de Software}{6}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Instalación}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Base de datos}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Backend}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Front}{10}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Descripción de los módulos}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Backend}{12}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Módulo de Gestión de Carrito}{12}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Módulo de Gestión de Dominios}{12}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}Módulo de Cuentas y Autenticación}{13}{subsubsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.4}Módulo de Planes y Hosting}{14}{subsubsection.5.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.5}Módulo de Soporte y Ticket}{14}{subsubsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.2}Middleware de Automatización (OpenAI)}{14}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Base de datos}{15}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Procedimientos de uso}{16}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Acceso al sistema}{16}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Registro de nuevos usuarios}{16}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Gestión de dominio y facturación}{16}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}}{17}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Verificación de autenticación y permisos}{17}{subsection.6.5}%
+\contentsline {section}{\numberline {7}Glosario y anexos}{18}{section.7}%

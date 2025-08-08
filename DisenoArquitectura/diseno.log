@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  7 AUG 2025 19:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  7 AUG 2025 22:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -928,7 +928,7 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into
 your preamble.
  on input line 96.
 
-<logo.png, id=272, 855.26627pt x 855.26627pt>
+<logo.png, id=292, 855.26627pt x 855.26627pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 98.
@@ -947,12 +947,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>] (./portada/po
 rtada.tex
-<registro-imagen.png, id=283, 219.82124pt x 408.77719pt>
+<registro-imagen.png, id=303, 219.82124pt x 408.77719pt>
 File: registro-imagen.png Graphic file (type png)
 <use registro-imagen.png>
 Package pdftex.def Info: registro-imagen.png  used on input line 6.
 (pdftex.def)             Requested size: 454.45352pt x 845.04684pt.
-<logomanual.png, id=284, 313.17pt x 92.345pt>
+<logomanual.png, id=304, 313.17pt x 92.345pt>
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 11.
@@ -1168,13 +1168,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.137 \newpage
-              ] (./descpatron/descpatron.tex)
+              ] (./descpatron/descpatron.tex
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 3.
+
+)
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 141.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
  [22] (./puntovista/puntovista.tex
-<puntovista/dia-contexto.png, id=464, 533.74406pt x 394.47375pt>
+<puntovista/dia-contexto.png, id=489, 533.74406pt x 394.47375pt>
 File: puntovista/dia-contexto.png Graphic file (type png)
 <use puntovista/dia-contexto.png>
 Package pdftex.def Info: puntovista/dia-contexto.png  used on input line 9.
@@ -1183,7 +1188,7 @@ File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 20.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
-[23
+ [23
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1229,7 +1234,7 @@ File: logomanual.png Graphic file (type png)
 Package pdftex.def Info: logomanual.png  used on input line 297.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
  [30]
-<puntovista/diacomponentes.png, id=567, 700.6175pt x 439.6425pt>
+<puntovista/diacomponentes.png, id=592, 700.6175pt x 439.6425pt>
 File: puntovista/diacomponentes.png Graphic file (type png)
 <use puntovista/diacomponentes.png>
 Package pdftex.def Info: puntovista/diacomponentes.png  used on input line 326.
@@ -1240,7 +1245,7 @@ File: logomanual.png Graphic file (type png)
 Package pdftex.def Info: logomanual.png  used on input line 330.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
  [31]
-<puntovista/dia-relacional.png, id=582, 1913.1475pt x 1111.15125pt>
+<puntovista/dia-relacional.png, id=607, 1913.1475pt x 1111.15125pt>
 File: puntovista/dia-relacional.png Graphic file (type png)
 <use puntovista/dia-relacional.png>
 Package pdftex.def Info: puntovista/dia-relacional.png  used on input line 334.
@@ -1258,21 +1263,56 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.144 
        <./puntovista/diacomponentes.png>]
-Overfull \hbox (5.3938pt too wide) in paragraph at lines 145--145
-|[][]\OT1/cmr/bx/n/17.28 Firmas de aceptaci^^Son con fecha (DD/M-M/AAAA)| 
- []
-
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 147.
+Package pdftex.def Info: logomanual.png  used on input line 145.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
-[33
+ [33
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.147 \newpage
-               <./puntovista/dia-relacional.png>]
+l.145 \newpage
+               <./puntovista/dia-relacional.png>] (./firmas/firmas.tex
+<firmas/firma-andres.png, id=617, 170.13562pt x 87.32625pt>
+File: firmas/firma-andres.png Graphic file (type png)
+<use firmas/firma-andres.png>
+Package pdftex.def Info: firmas/firma-andres.png  used on input line 4.
+(pdftex.def)             Requested size: 91.04742pt x 46.73174pt.
+<firmas/firma-steveb.png, id=618, 413.29407pt x 107.65219pt>
+File: firmas/firma-steveb.png Graphic file (type png)
+<use firmas/firma-steveb.png>
+Package pdftex.def Info: firmas/firma-steveb.png  used on input line 10.
+(pdftex.def)             Requested size: 91.04742pt x 23.71475pt.
+<firmas/firma-cris.png, id=619, 122.70844pt x 84.315pt>
+File: firmas/firma-cris.png Graphic file (type png)
+<use firmas/firma-cris.png>
+Package pdftex.def Info: firmas/firma-cris.png  used on input line 16.
+(pdftex.def)             Requested size: 91.04742pt x 62.56192pt.
+<firmas/firma-esteban.png, id=620, 147.55125pt x 81.30376pt>
+File: firmas/firma-esteban.png Graphic file (type png)
+<use firmas/firma-esteban.png>
+Package pdftex.def Info: firmas/firma-esteban.png  used on input line 22.
+(pdftex.def)             Requested size: 91.04742pt x 50.1696pt.
+<firmas/firma-karen.png, id=621, 106.89937pt x 87.32625pt>
+File: firmas/firma-karen.png Graphic file (type png)
+<use firmas/firma-karen.png>
+Package pdftex.def Info: firmas/firma-karen.png  used on input line 28.
+(pdftex.def)             Requested size: 91.04742pt x 74.37689pt.
+<firmas/firma-felipe.png, id=622, 137.7647pt x 87.32625pt>
+File: firmas/firma-felipe.png Graphic file (type png)
+<use firmas/firma-felipe.png>
+Package pdftex.def Info: firmas/firma-felipe.png  used on input line 34.
+(pdftex.def)             Requested size: 91.04742pt x 57.71544pt.
+)
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 149.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+
+[34 <./firmas/firma-andres.png (PNG copy)> <./firmas/firma-steveb.png (PNG copy
+)> <./firmas/firma-cris.png (PNG copy)> <./firmas/firma-esteban.png (PNG copy)>
+ <./firmas/firma-karen.png (PNG copy)> <./firmas/firma-felipe.png (PNG copy)>]
 No file diseno.bbl.
 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -1282,13 +1322,13 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `diseno.out' has not changed.
-(rerunfilecheck)             Checksum: CC88140DD3FA4233E280C9083AEF7F1E;14585.
+(rerunfilecheck)             Checksum: F33387A33350208AEE3667DF3C1713AD;15569.
  ) 
 Here is how much of TeX's memory you used:
- 36831 strings out of 476106
- 852544 string characters out of 5793934
+ 36891 strings out of 476106
+ 854116 string characters out of 5793934
  1946975 words of memory out of 5000000
- 58069 multiletter control sequences out of 15000+600000
+ 58119 multiletter control sequences out of 15000+600000
  567775 words of font info for 73 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  94i,16n,94p,721b,638s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1296,10 +1336,10 @@ Here is how much of TeX's memory you used:
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on diseno.pdf (35 pages, 3632380 bytes).
+Output written on diseno.pdf (36 pages, 3695961 bytes).
 PDF statistics:
- 652 PDF objects out of 1000 (max. 8388607)
- 593 compressed objects within 6 object streams
- 185 named destinations out of 1000 (max. 500000)
- 571 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 689 PDF objects out of 1000 (max. 8388607)
+ 622 compressed objects within 7 object streams
+ 191 named destinations out of 1000 (max. 500000)
+ 641 words of extra memory for PDF output out of 10000 (max. 10000000)
 
