@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  7 AUG 2025 18:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  7 AUG 2025 19:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1614,47 +1614,52 @@ File: guiamodulo/menu-admin-hosting.png Graphic file (type png)
 Package pdftex.def Info: guiamodulo/menu-admin-hosting.png  used on input line 
 367.
 (pdftex.def)             Requested size: 136.57462pt x 42.56418pt.
-) (./recomendaciones/recomendaciones.tex)
+)
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 126.
+Package pdftex.def Info: logomanual.png  used on input line 123.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
-
-[21
+ [21
 pdfTeX warning (ext4): destination with the same identifier (name{figure.39}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.126 \newpage
+l.123 \newpage
               
 pdfTeX warning (ext4): destination with the same identifier (name{figure.40}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.126 \newpage
+l.123 \newpage
                <./guiamodulo/gestion-hosting-nuevo-campos.png (PNG copy)>]
-(./glosario/glosario.tex
+(./recomendaciones/recomendaciones.tex)
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 127.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+ [22] (./glosario/glosario.tex
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 38.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [22]
+ [23]
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 76.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [23]
+
+[24]
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 108.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [24])
+ [25])
 No file manusuempleados.bbl.
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 133.
+Package pdftex.def Info: logomanual.png  used on input line 134.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
-[25] 
+[26] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./manusuempleados.aux)
  ***********
@@ -1669,8 +1674,8 @@ Package rerunfilecheck Info: File `manusuempleados.out' has not changed.
 (rerunfilecheck)             Checksum: 3E1686F1358055D4B880A80BA1038290;4471.
  ) 
 Here is how much of TeX's memory you used:
- 36919 strings out of 476106
- 857770 string characters out of 5793934
+ 36920 strings out of 476106
+ 857777 string characters out of 5793934
  1941975 words of memory out of 5000000
  58217 multiletter control sequences out of 15000+600000
  567944 words of font info for 74 fonts, out of 8000000 for 9000
@@ -1681,10 +1686,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on manusuempleados.pdf (27 pages, 4910304 bytes).
+Output written on manusuempleados.pdf (28 pages, 4911732 bytes).
 PDF statistics:
- 502 PDF objects out of 1000 (max. 8388607)
- 416 compressed objects within 5 object streams
- 143 named destinations out of 1000 (max. 500000)
+ 506 PDF objects out of 1000 (max. 8388607)
+ 419 compressed objects within 5 object streams
+ 144 named destinations out of 1000 (max. 500000)
  450 words of extra memory for PDF output out of 10000 (max. 10000000)
 

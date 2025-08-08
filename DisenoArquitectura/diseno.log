@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  7 AUG 2025 00:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.5)  7 AUG 2025 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -974,7 +974,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 ...{7.4.2}Seguridad}{14}{subsubsection.7.4.2}
+l.38 ...{7.4.2}Seguridad}{15}{subsubsection.7.4.2}
                                                   % [1
 
 ])
@@ -1002,12 +1002,12 @@ File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 114.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [4] (./descdoc/descdoc.tex)
+ [4] (./descdoc/descdoc.tex
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 118.
+Package pdftex.def Info: logomanual.png  used on input line 23.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [5]
+ [5])
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 118.
@@ -1061,43 +1061,72 @@ Overfull \hbox (10.84167pt too wide) in paragraph at lines 127--127
 os Fun-
  []
 
-(./especificacion/especificacion.tex)
+(./especificacion/especificacion.tex
+PGFPlots: reading {especificacion/espec.dat}
+
+Overfull \hbox (23.99997pt too wide) in paragraph at lines 20--21
+[][]
+ []
+
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 130.
+Package pdftex.def Info: logomanual.png  used on input line 23.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [11] (./motivadores/motivadores.tex
+[11
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.23 \end{center}
+                 ]
+PGFPlots: reading {especificacion/espec2.dat}
+
+Overfull \hbox (23.99997pt too wide) in paragraph at lines 30--31
+[][]
+ []
+
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 33.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.33 \end{center}
+                 ]) (./motivadores/motivadores.tex
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 29.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
-
-[12]
+ [13]
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 59.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [13]
+ [14]
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 88.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [14]
+ [15]
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 112.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [15])
+ [16])
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 134.
+Package pdftex.def Info: logomanual.png  used on input line 133.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [16]
+
+[17]
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 134.
+Package pdftex.def Info: logomanual.png  used on input line 133.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [17] (./contexto/context.tex
+ [18] (./contexto/context.tex
 Overfull \hbox (1.01027pt too wide) in paragraph at lines 32--33
 []\OT1/cmr/bx/n/12 Descripci^^Son: \OT1/cmr/m/n/12 El usuario crea un tick-et d
 e-scri-bi-en-do su prob-le-ma. So-porte lo atiende,
@@ -1107,7 +1136,7 @@ File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 42.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
-[18]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
@@ -1116,7 +1145,7 @@ File: logomanual.png Graphic file (type png)
 <use logomanual.png>
 Package pdftex.def Info: logomanual.png  used on input line 79.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
-[19]
+[20]
 Overfull \hbox (5.30333pt too wide) in paragraph at lines 80--81
 []\OT1/cmr/bx/n/12 Distribuidor: \OT1/cmr/m/n/12 Usuario que ges-tiona m^^Sulti
 ples do-min-ios y co-bra a sus pro-pios clientes. 
@@ -1131,86 +1160,119 @@ Overfull \hbox (7.54721pt too wide) in paragraph at lines 106--107
 )
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 138.
+Package pdftex.def Info: logomanual.png  used on input line 137.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [20
-pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ [21
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.138 \newpage
+l.137 \newpage
               ] (./descpatron/descpatron.tex)
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 142.
+Package pdftex.def Info: logomanual.png  used on input line 141.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [21] (./puntovista/puntovista.tex
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+ [22] (./puntovista/puntovista.tex
+<puntovista/dia-contexto.png, id=464, 533.74406pt x 394.47375pt>
+File: puntovista/dia-contexto.png Graphic file (type png)
+<use puntovista/dia-contexto.png>
+Package pdftex.def Info: puntovista/dia-contexto.png  used on input line 9.
+(pdftex.def)             Requested size: 364.19667pt x 269.17758pt.
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 20.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+[23
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.20 
+      <./puntovista/dia-contexto.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 37.
+Package pdftex.def Info: logomanual.png  used on input line 61.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
-[22]
+[24]
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 76.
-(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [23]
-File: logomanual.png Graphic file (type png)
-<use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 108.
-(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
- [24]
-File: logomanual.png Graphic file (type png)
-<use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 152.
+Package pdftex.def Info: logomanual.png  used on input line 94.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
  [25]
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 188.
+Package pdftex.def Info: logomanual.png  used on input line 132.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
  [26]
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 231.
+Package pdftex.def Info: logomanual.png  used on input line 176.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
  [27]
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 277.
+Package pdftex.def Info: logomanual.png  used on input line 207.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
  [28]
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 311.
+Package pdftex.def Info: logomanual.png  used on input line 250.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
  [29]
-<puntovista/diacomponentes.png, id=561, 700.6175pt x 439.6425pt>
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 297.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+ [30]
+<puntovista/diacomponentes.png, id=567, 700.6175pt x 439.6425pt>
 File: puntovista/diacomponentes.png Graphic file (type png)
 <use puntovista/diacomponentes.png>
-Package pdftex.def Info: puntovista/diacomponentes.png  used on input line 317.
+Package pdftex.def Info: puntovista/diacomponentes.png  used on input line 326.
 
 (pdftex.def)             Requested size: 455.24411pt x 285.67702pt.
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 330.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+ [31]
+<puntovista/dia-relacional.png, id=582, 1913.1475pt x 1111.15125pt>
+File: puntovista/dia-relacional.png Graphic file (type png)
+<use puntovista/dia-relacional.png>
+Package pdftex.def Info: puntovista/dia-relacional.png  used on input line 334.
+
+(pdftex.def)             Requested size: 455.24411pt x 264.39285pt.
 )
-Overfull \hbox (5.3938pt too wide) in paragraph at lines 146--146
+File: logomanual.png Graphic file (type png)
+<use logomanual.png>
+Package pdftex.def Info: logomanual.png  used on input line 144.
+(pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
+ [32
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.144 
+       <./puntovista/diacomponentes.png>]
+Overfull \hbox (5.3938pt too wide) in paragraph at lines 145--145
 |[][]\OT1/cmr/bx/n/17.28 Firmas de aceptaci^^Son con fecha (DD/M-M/AAAA)| 
  []
 
 File: logomanual.png Graphic file (type png)
 <use logomanual.png>
-Package pdftex.def Info: logomanual.png  used on input line 148.
+Package pdftex.def Info: logomanual.png  used on input line 147.
 (pdftex.def)             Requested size: 144.7385pt x 42.67912pt.
-[30
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+[33
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.148 \newpage
-               <./puntovista/diacomponentes.png>]
+l.147 \newpage
+               <./puntovista/dia-relacional.png>]
 No file diseno.bbl.
 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -1220,13 +1282,13 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `diseno.out' has not changed.
-(rerunfilecheck)             Checksum: 0BD0BAE6820C65B14F12ABADABEF4F0D;14715.
+(rerunfilecheck)             Checksum: CC88140DD3FA4233E280C9083AEF7F1E;14585.
  ) 
 Here is how much of TeX's memory you used:
- 36796 strings out of 476106
- 851549 string characters out of 5793934
+ 36831 strings out of 476106
+ 852544 string characters out of 5793934
  1946975 words of memory out of 5000000
- 58045 multiletter control sequences out of 15000+600000
+ 58069 multiletter control sequences out of 15000+600000
  567775 words of font info for 73 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  94i,16n,94p,721b,638s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1234,10 +1296,10 @@ Here is how much of TeX's memory you used:
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on diseno.pdf (32 pages, 3340073 bytes).
+Output written on diseno.pdf (35 pages, 3632380 bytes).
 PDF statistics:
- 627 PDF objects out of 1000 (max. 8388607)
- 574 compressed objects within 6 object streams
- 178 named destinations out of 1000 (max. 500000)
- 561 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 652 PDF objects out of 1000 (max. 8388607)
+ 593 compressed objects within 6 object streams
+ 185 named destinations out of 1000 (max. 500000)
+ 571 words of extra memory for PDF output out of 10000 (max. 10000000)
 

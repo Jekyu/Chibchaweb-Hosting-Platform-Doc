@@ -1,0 +1,22 @@
+Código;Requerimiento Funcional
+RF-01 ; El sistema debe permitir el registro de clientes con verificación por correo electrónico.
+RF-02 ; El sistema debe permitir buscar dominios disponibles sin iniciar sesión.
+RF-03 ; El sistema debe permitir adquirir un paquete de hosting a los clientes.
+RF-04 ; El sistema debe permitir al cliente administrar el paquete de hosting que adquiera.
+RF-05 ; El sistema debe permitir a clientes y distribuidores agregar dominios al carrito de compras.
+RF-06 ; El sistema debe permitir a clientes y distribuidores adquirir dominios.
+RF-07 ; El sistema debe permitir a clientes y distribuidores ver los dominios adquiridos.
+RF-08 ; El sistema debe calcular el costo total del carrito automáticamente.
+RF-09 ; El sistema debe permitir eliminar productos del carrito.
+RF-10 ; El sistema debe enviar facturas al correo electrónico del usuario cuando realizan una compra.
+RF-11 ; El sistema debe permitir transferir dominios a otros usuarios registrados en el sistema.
+RF-12 ; El sistema debe permitir la creación de tickets de soporte para clientes y distribuidores.
+RF-13 ; El sistema debe mostrar una notificación que indique transacciones exitosas o fallidas.
+RF-14 ; El sistema debe permitir a cualquier usuario editar su propio perfil.
+RF-15 ; El sistema debe permitir a los clientes y distribuidores agregar un método de pago.
+RF-16 ; El sistema debe permitir a los clientes y distribuidores ver sus métodos de pago.
+RF-17 ; El sistema debe permitir el registro de distribuidores con verificación por correo electrónico.
+RF-18 ; El sistema debe permitir comprar dominios a los clientes y distribuidores.
+RF-19 ; El sistema debe permitir transferir dominios a otros usuarios registrados en el sistema.
+RF-20 ; El sistema debe permitir la creación de tickets de soporte para clientes y distribuidores.
+RF-21 ; El sistema debe permitir al distribuidor consultar cuánta comisión ha recibido en todas sus compras.

@@ -1,1 +1,33 @@
-La presente sección describe los requerimientos funcionales necesarios para el desarrollo de la aplicación de software para ChibchaWeb, con el fin de automatizar y optimizar los procesos de gestión de clientes, pagos, dominios, distribuidores y soporte técnico. Los requerimientos han sido identificados a partir del análisis de las operaciones actuales de la empresa y sus proyecciones.
+La presente sección describe los requerimientos funcionales necesarios para el desarrollo de la aplicación de software para ChibchaWeb, con el fin de automatizar y optimizar los procesos de gestión de clientes, pagos, dominios, distribuidores y soporte técnico.
+
+\pgfplotstableset{
+    % Estilo general
+    every head row/.style={
+        before row=\hline\rowcolor{cafet}\bfseries,
+        after row=\hline,
+    },
+    every odd row/.style={before row=\rowcolor{gray!10}},
+    columns/Código/.style={string type, column type=p{1.5cm}},
+    columns/Requerimiento Funcional/.style={string type, column type=p{14.5cm}},
+    col sep=semicolon,
+}
+
+\begin{center}
+    \begin{table}[H]
+    \pgfplotstabletypeset[
+    col sep=semicolon,
+    header=true,
+    ]{especificacion/espec.dat}
+    \caption{Requerimientos Funcionales, parte 1.}
+    \end{table}
+\end{center}
+
+\begin{center}
+    \begin{table}[H]
+    \pgfplotstabletypeset[
+    col sep=semicolon,
+    header=true,
+    ]{especificacion/espec2.dat}
+    \caption{Requerimientos Funcionales, parte 2.}
+    \end{table}
+\end{center}
